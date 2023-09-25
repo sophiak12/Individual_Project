@@ -1,8 +1,8 @@
 # Timelog
 
 * PROJECT NAME
-* YOUR NAME
-* STUDENT_ID
+* Sofia Karamichali
+* 2570646K
 * SUPERVISOR NAME
 
 ## Guidance
@@ -14,13 +14,11 @@
 
 ## Week 1
 
-### 19 Oct 2019
+* *0 hours* Have not been allocated a project yet
 
-* *4 hours* Read the project guidance notes
-* *0.5 hour* Created GitLab repository and cloned the cookiecutter for the projects
-* *1 hour* Modified dissertation template, compiled  
+## Week 2
 
-## 20 Oct 2019
+## 25 Sep 2023
 
-* *1 hour* meeting with supervisor
-* *2 hours* writing initial version of test harness
+* *0.45 hour* Created GitHub repository and cloned the template
+* *1 hour* Read through various individual project guidance documents 
