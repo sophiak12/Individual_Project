@@ -1,6 +1,6 @@
 # Timelog
 
-* PROJECT NAME
+* Analysis of gender stereotypes in personality assessments
 * Sofia Karamichali
 * 2570646K
 * Dr Evangelia Fringi & Prof Alessandro Vinciarelli
