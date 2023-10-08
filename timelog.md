@@ -3,7 +3,7 @@
 * PROJECT NAME
 * Sofia Karamichali
 * 2570646K
-* SUPERVISOR NAME
+* Dr Evangelia Fringi & Prof Alessandro Vinciarelli
 
 ## Guidance
 
@@ -21,4 +21,26 @@
 ## 25 Sep 2023
 
 * *0.45 hour* Created GitHub repository and cloned the template
-* *1 hour* Read through various individual project guidance documents 
+* *1 hour* Read through various individual project guidance documents
+
+## Week 3
+
+## 4 Oct 2023
+
+* Topic Reallocated
+
+* *2 hours* Researched Topic Title
+
+## 5 Oct 2023
+
+* *1.5 hour* Researched Topic Title
+* * 0.5 hour* Supervisor meeting
+ 
+## 7 Oct 2023
+* *0.5 hour* Read a relevant paper
+
+## 8 Oct 2023
+* *3 hours* Read papers & Researched
+* *0.5 hour* Studied the data for the project
+*  *0.5 hour* Organised notes
+  
