@@ -34,7 +34,7 @@
 ## 5 Oct 2023
 
 * *1.5 hour* Researched Topic Title
-* * 0.5 hour* Supervisor meeting
+* *0.5 hour* Supervisor meeting
  
 ## 7 Oct 2023
 * *0.5 hour* Read a relevant paper
@@ -42,5 +42,8 @@
 ## 8 Oct 2023
 * *3.5 hours* Read papers & Researched
 * *0.5 hour* Studied the data for the project
-*  *0.5 hour* Organised notes
-  
+* *0.5 hour* Organised notes
+
+## 9 Oct 2023
+* *1 hour* Read papers & Researched
+*  *2.5 hours* Studied statistics
