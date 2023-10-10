@@ -47,3 +47,7 @@
 ## 9 Oct 2023
 * *1 hour* Read papers & Researched
 *  *2.5 hours* Studied statistics
+
+## 10 Oct 2023
+* *1.5 hour* Studied statistics & prepared for meeting
+* *0.5 hour* Supervisor meeting
