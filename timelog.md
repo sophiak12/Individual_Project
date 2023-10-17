@@ -56,3 +56,19 @@
 
 ## 12 Oct 2023 
 * *1 hour* Did reading on statistics
+
+## 14 Oct 2023
+* *2 hours* Studied statistics basics
+* *3 hours* Started coding - imported data & started using correlations on the data
+
+## 15 Oct 2023
+* *3 hours* Worked on the code - Used different correlation methods and visualisations of the data
+
+## Week 5
+
+## 16 Oct 2023
+* *4.5 hours* Worked on the code - Used different correlation methods on the data specifically on gender and visualisations of the data
+
+## 17 Oct 2023
+* *2 hours* Worked on the code and correlations more
+* *0.5 hour* Supervisor meeting
