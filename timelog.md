@@ -72,3 +72,12 @@
 ## 17 Oct 2023
 * *2 hours* Worked on the code and correlations more
 * *0.5 hour* Supervisor meeting
+
+## 19 Oct 2023
+* *1 hour* Worked on the code and tables of data
+
+## 20 Oct 2023
+* *3.5 hours* Finalised Pearson/Spearman correlations for gender bias
+
+## 21 Oct 2023
+* *3 hours* Implemented t tests to compare the genders
