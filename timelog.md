@@ -81,3 +81,12 @@
 
 ## 21 Oct 2023
 * *3 hours* Implemented t tests to compare the genders
+
+
+## Week 6
+## 22 Oct 2023
+* *3 hours*  Worked on visualisations & compared findings
+
+## 23 Oct 2023
+* *1.5 hours* Prepared for meeting & finalised visualisations 
+* *1 hour* Supervisor meeting
