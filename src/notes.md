@@ -1,22 +1,22 @@
 # Conclusions of data
 
-## Spearman Correlatiosns
+## Spearman Correlations
 
-# Average
+#### Average
 - Measures the Monotonic Relationship between two ranked variables
 - Rho (-1 to 1)
 - P value (0 to 1)
 No correlation is statistically significant
 Failed to reject the null hypothesis (no correlation between the values)
 
-# Checking for judge skewing
+### Checking for judge skewing
 - Extraversion - Judge 10 Skewing (significant difference)
 - Agreeableness - Judge 10 has quite a difference & Judge 9 a bit
 - Consientiousness - Judge 10 has overall difference but other judges as well
 - Neurotisism - 
 - Openness - 
 
-# T test of Judge combination p values
+### T test of Judge combination p values
 - p <0.05 - there is a significance difference between the means of the p values
 - All statistically significant
 
@@ -41,7 +41,6 @@ Failed to reject the null hypothesis (no correlation between the values)
 
 ## T tests
 ### Between gender between each judge
-- 
 
 ### Between whole sample 
 #### Including duplicate clips
