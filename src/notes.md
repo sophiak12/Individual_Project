@@ -29,9 +29,9 @@ Failed to reject the null hypothesis (no correlation between the values)
 Any values between 0.5 & 0.7 are considered fair
 Any values between 0.7-0.9 are considered good
 
---> Extraversion is good
---> Openness is very bad
---> Everything else is fair
+* Extraversion is good
+* Openness is very bad
+* Everything else is fair
 
 # Comprisons made on gender
 
