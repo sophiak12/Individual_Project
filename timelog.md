@@ -84,9 +84,26 @@
 
 
 ## Week 6
+
 ## 22 Oct 2023
 * *3 hours*  Worked on visualisations & compared findings
 
 ## 23 Oct 2023
 * *1.5 hours* Prepared for meeting & finalised visualisations 
 * *1 hour* Supervisor meeting
+
+## 26 Oct 2023
+* *1.5 hours* Visualisation of p values to check for outlier skewing results
+
+## 27 Oct 2023
+* *2 hours* Worked on checking for outlier skewing results & debugging 
+
+## 28 Oct 2023
+* *0.5 hour* Organisation of the code
+
+## 29 Oct 2023
+* *3 hours* Started implementing Corrections for repeating tests 
+
+## Week 7
+
+## 30 Oct 2023

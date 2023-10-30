@@ -1,21 +1,21 @@
 # Plan
 
-* PROJECT TITLE
-* YOUR NAME
-* STUDENT ID
-* SUPERVISOR NAME
+* Analysis of gender stereotypes in personality assessments
+* Sofia Karamichali
+* 2570646K
+* Evangelia Fringi & Alessandro Vinciarelli
 
 Week-by-week plan for the whole project. Update this as you go along.
 
 ## Winter semester
 
-* **Week 1**
-* **Week 2**
-* **Week 3**
-* **Week 4**
-* **Week 5**
-* **Week 6**
-* **Week 7**
+* **Week 1** No project assigned
+* **Week 2** No project assigned
+* **Week 3** Topic & Literature Familiarisation
+* **Week 4** Understand statistical methods & start data analysis
+* **Week 5** Calculation of distributions/correlations/t-tests & visualisation plotting
+* **Week 6** Implement different correction types/ check for data bias
+* **Week 7** Work on literature review & 
 * **Week 8**
 * **Week 9**
 * **Week 10**
