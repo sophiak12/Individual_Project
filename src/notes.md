@@ -9,6 +9,17 @@
 No correlation is statistically significant
 Failed to reject the null hypothesis (no correlation between the values)
 
+#### Average after Correction
+- Bonferroni
+    - Strictest
+
+- Sidak
+     - 
+
+- FDRC
+    - Smallest p values
+
+
 ### Checking for judge skewing
 - Extraversion - Judge 10 Skewing (significant difference)
 - Agreeableness - Judge 10 has quite a difference & Judge 9 a bit
@@ -44,10 +55,13 @@ Failed to reject the null hypothesis (no correlation between the values)
 
 ### Between whole sample 
 #### Including duplicate clips
-- All apart from extraversion are statistically significant
+- All apart from extraversion 
+    - statistically significant difference between male & female
 
 #### Average for each clip between judges
-- All apart from extraversion are statistically significant
+- All apart from extraversion  
+    - statistically significant difference between male & female
+
 
 ## Average per clip between gender (Box plot)
 - Can see Female scoring higher in all attributews apart from extraversion.

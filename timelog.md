@@ -92,7 +92,7 @@
 * *1.5 hours* Prepared for meeting & finalised visualisations 
 * *1 hour* Supervisor meeting
 
-## 26 Oct 2023
+## 26 Oct 20233
 * *1.5 hours* Visualisation of p values to check for outlier skewing results
 
 ## 27 Oct 2023
@@ -107,3 +107,18 @@
 ## Week 7
 
 ## 30 Oct 2023
+* *2 hours* Finished implementing Corrections
+
+## 31 Oct 2023
+* *1 hours* Researched p value combination methods
+* *1 hour* Worked on finding corrections between judges for a specific gender
+* *1 hour* Supervisor Meeting
+
+## 01 Nov 2023
+* *1 hour* Bug Fix
+
+## 02 Nov 2023
+* *1 hour* Removed all rounding & Bug Fix
+
+## 04 Nov 2023
+* *2 hours* Removed duplicate code
