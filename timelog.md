@@ -122,3 +122,5 @@
 
 ## 04 Nov 2023
 * *2 hours* Removed duplicate code
+* *1.5 hours* Used different averages to compare correlations & made comparisons
+* *1.5 hours* Made comparisons using correction alphas
