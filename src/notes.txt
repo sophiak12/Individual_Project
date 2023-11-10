@@ -38,7 +38,6 @@ Failed to reject the null hypothesis (no correlation between the values)
 - The p values are different from each other = variety in the original p values of & statistically significant = this is reliable
 
 
-
 ## Reliability Coefficient - Spearman Brown
 
 Any values between 0.5 & 0.7 are considered fair

@@ -124,3 +124,27 @@
 * *2 hours* Removed duplicate code
 * *1.5 hours* Used different averages to compare correlations & made comparisons
 * *1.5 hours* Made comparisons using correction alphas
+
+
+## Week 8 
+
+## 06 Nov 2023
+* *1.5 hour* Judge Agreement functions to display significance & Correction flecibility for Judge 10 in/exclusion
+* *1.5  hour* Gender comparison functions to display significance
+* *1 hour* Removed duplicate code
+
+## 07 Nov 2023
+* *1.5 hour*
+* *0.5 hour* Supervisor Meeting
+
+## 09 Nov 2023
+
+## 10 Nov 2023
+
+## 11 Nov 2023
+
+## Week 9
+
+## Week 10
+
+## Week 11
