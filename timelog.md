@@ -134,12 +134,11 @@
 * *1 hour* Removed duplicate code
 
 ## 07 Nov 2023
-* *1.5 hour*
+* *1.5 hour* Organised unecessary code & made a few corrections
 * *0.5 hour* Supervisor Meeting
 
-## 09 Nov 2023
-
 ## 10 Nov 2023
+* *0.5* Added Corrections for all t tests
 
 ## 11 Nov 2023
 
