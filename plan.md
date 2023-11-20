@@ -15,8 +15,8 @@ Week-by-week plan for the whole project. Update this as you go along.
 * **Week 4** Understand statistical methods & start data analysis
 * **Week 5** Calculation of distributions/correlations/t-tests & visualisation plotting
 * **Week 6** Implement different correction types/ check for data bias
-* **Week 7**  
-* **Week 8** 
+* **Week 7** Polish correlations/Corrections
+* **Week 8** Research Machine Learning modelling using scikit-learn 
 * **Week 9**
 * **Week 10**
 * **Week 11 [PROJECT WEEK]**

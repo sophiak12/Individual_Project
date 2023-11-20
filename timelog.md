@@ -141,9 +141,28 @@
 * *0.5* Added Corrections for all t tests
 
 ## 11 Nov 2023
+* *1 hour* Researched scikit-learn 
+
+
+## 12 Nov 2023
+* *6 hours* Researched scikit-learn & started implementation
 
 ## Week 9
 
+## 13 Nov 2023
+* *1 hour* Bug fix
+* *2 hour* Researched scikit-learn 
+
+## 14 Nov 2023
+* *2 hours* Researched scikit-learn & continued implementation 
+* *1 hour* Supervisor meeting
+
+## 19 Nov 2023
+* *4 hours* Tried different ways to control unbalanced target values in data for model training
+
+
 ## Week 10
+
+## 20 Nov 2023
 
 ## Week 11
