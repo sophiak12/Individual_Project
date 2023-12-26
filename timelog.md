@@ -143,7 +143,6 @@
 ## 11 Nov 2023
 * *1 hour* Researched scikit-learn 
 
-
 ## 12 Nov 2023
 * *6 hours* Researched scikit-learn & started implementation
 
@@ -163,6 +162,42 @@
 
 ## Week 10
 
-## 20 Nov 2023
+## 21 Nov 2023
+* *1 hour* Applied different measurements of accuracy of the models
+* *1 hour* Added binomial test for results
+* *1 hour* Researched ways to control imbalanced binary target 
+* *0.5 hour* Supervisor meeting
 
 ## Week 11
+
+## 1 Dec 2023
+* *1 hour* Worked on classification implementation
+
+## 2 Dec 2023
+* *1.5 hours* Worked on hyperparameter tuning
+* *2 hours* Worked on cross validation & refactoring
+
+## Week 12
+
+## 4 Dec 2023
+* *2 hours* Refactored k fold for confusion matrix   
+
+## 5 Dec 2023
+* *2 hours* Improved binomial test
+* *0.5 hour* Supervisor meeting
+
+## Week 13 
+
+## 11 Dec 2023
+* *2 hours* Made minor corrections to the code
+
+## 12 Dec 2023
+* *2 hours* Created a plan for next semester
+* *0.5 hour* Supervisor meeting  
+
+## 15 Dec 2023
+*  *1.5 hour* Wrote up progress Report
+
+
+
+#

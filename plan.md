@@ -17,9 +17,9 @@ Week-by-week plan for the whole project. Update this as you go along.
 * **Week 6** Implement different correction types/ check for data bias
 * **Week 7** Polish correlations/Corrections
 * **Week 8** Research Machine Learning modelling using scikit-learn 
-* **Week 9**
-* **Week 10**
-* **Week 11 [PROJECT WEEK]**
+* **Week 9** Start implementation of model
+* **Week 10** Work on implementation of model
+* **Week 11 [PROJECT WEEK]** Worked on plan for further development & finalised current implementations
 * **Week 12 [PROJECT WEEK]** Status report submitted.
 
 ## Winter break
