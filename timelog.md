@@ -159,7 +159,6 @@
 ## 19 Nov 2023
 * *4 hours* Tried different ways to control unbalanced target values in data for model training
 
-
 ## Week 10
 
 ## 21 Nov 2023
@@ -168,7 +167,13 @@
 * *1 hour* Researched ways to control imbalanced binary target 
 * *0.5 hour* Supervisor meeting
 
+## 23 Nov 2023
+* *4 hours* Literature research & Read papers
+
 ## Week 11
+
+## 28 Nov 2023
+* *4 hours* Literature research & Read papers
 
 ## 1 Dec 2023
 * *1 hour* Worked on classification implementation
@@ -186,6 +191,12 @@
 * *2 hours* Improved binomial test
 * *0.5 hour* Supervisor meeting
 
+## 9 Dec 2023
+* *2 hours* Read papers
+
+## 10 Dec 2023
+* *2 hours* Read papers
+
 ## Week 13 
 
 ## 11 Dec 2023
@@ -195,9 +206,37 @@
 * *2 hours* Created a plan for next semester
 * *0.5 hour* Supervisor meeting  
 
+## 14 Dec 2023
+* *4 hours* Literature research & Read papers
+
 ## 15 Dec 2023
-*  *1.5 hour* Wrote up progress Report
+* *2.5 hours* Literature research & Read papers
+* *1.5 hour* Wrote up progress Report
 
 
 
-#
+## SPRING SEMESTER
+
+## Week 13
+
+## 08 Jan 2024
+* *1.5 hour* Implemeted PCA and LDA for visualisations
+* *1 hour* Read a paper 
+
+## 09 Jan 2024
+* *1 hour* Literature research
+
+## 10 Jan 2024
+* *1 hour* Supervisor meeting
+
+## 12 Jan 2024
+* *3 hours* Added grouping to set split and k fold split
+
+# 14 Jan 2024
+* *2 hour* Code organisation & small changes
+
+## Week 14
+
+## 15 Jan 2024
+
+## 16 Jan 2024
