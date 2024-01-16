@@ -235,9 +235,12 @@
 # 14 Jan 2024
 * *2 hour* Code organisation & small changes
 * *1 hour* Extracted pitch of Audio data
+* *1 hour* Worked on pitch data
 
 ## Week 14
 
 ## 15 Jan 2024
+* *2.5 hours* Worked on pitch data
 
 ## 16 Jan 2024
+* *2 hours* Worked on pitch data
