@@ -243,4 +243,12 @@
 * *2.5 hours* Worked on pitch data
 
 ## 16 Jan 2024
-* *2 hours* Worked on pitch data
+* *2.5 hours* Worked on pitch data
+
+## 17 Jan 2024
+* *1 hour* Fixed pitch data issue & added distribution histogram
+* *0.5 hour* Supervisor meeting
+
+## 18 Jan 2024
+
+## 19 Jan 2024
