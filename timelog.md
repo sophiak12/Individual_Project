@@ -217,7 +217,7 @@
 
 ## SPRING SEMESTER
 
-## Week 13
+## Week 14
 
 ## 08 Jan 2024
 * *1.5 hour* Implemeted PCA and LDA for visualisations
@@ -237,7 +237,7 @@
 * *1 hour* Extracted pitch of Audio data
 * *1 hour* Worked on pitch data
 
-## Week 14
+## Week 15
 
 ## 15 Jan 2024
 * *2.5 hours* Worked on pitch data
@@ -250,5 +250,50 @@
 * *0.5 hour* Supervisor meeting
 
 ## 18 Jan 2024
+* *1 hour* Worked on dissertation background section
 
 ## 19 Jan 2024
+* *1 hour* Worked on dissertation background section
+
+## 20 Jan 2024
+* *3 hours* Worked on dissertation background section
+
+## 21 Jan 2024
+* *3 hours* Worked on dissertation background section
+
+## Week 16
+
+## 22 Jan 2024
+* *2 hours* Worked on background section
+
+## 23 Jan 2024
+* *2 hours* Worked on background section
+
+## 24 Jan 2024
+* *1 hour* Worked on background section & added box plots
+* *1 hour* Supervisor meeting
+* *1 hour* Looked over statistical calculations
+
+## 25 Jan 2024
+* *2 hours* Worked on background section
+
+## 26 Jan 2024
+* *2 hours* Worked on background section
+
+## 27 Jan 2024
+* *2 hours* Worked on background section
+
+## 28 Jan 2024
+* *1.5 hours* Worked on background section
+
+## Week 17
+
+## 29 Jan 2024
+* *2 hours* Worked on background section
+* *1 hour* Cleaned up code and improved visualisations - tables/graphs
+
+## 30 Jan 2024
+
+## 31 Jan 2024
+
+
