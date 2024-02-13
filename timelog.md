@@ -232,7 +232,7 @@
 ## 12 Jan 2024
 * *3 hours* Added grouping to set split and k fold split
 
-# 14 Jan 2024
+## 14 Jan 2024
 * *2 hour* Code organisation & small changes
 * *1 hour* Extracted pitch of Audio data
 * *1 hour* Worked on pitch data
@@ -261,6 +261,7 @@
 ## 21 Jan 2024
 * *3 hours* Worked on dissertation background section
 
+
 ## Week 16
 
 ## 22 Jan 2024
@@ -288,12 +289,50 @@
 
 ## Week 17
 
-## 29 Jan 2024
+## 30 Jan 2024
 * *2 hours* Worked on background section
 * *1 hour* Cleaned up code and improved visualisations - tables/graphs
 
-## 30 Jan 2024
-
 ## 31 Jan 2024
+* *1.5 hours* Worked on background section
+* *0.5 hour* Bibliography organisation
+* *0.5 hour* Supervisor meeting
 
+## 1 Feb 2024
+* *3 hours* Solved Latex error 
 
+## Week 18
+
+## 6 Feb 2024
+* *0.5 hour* Looked into potential ouliers in some results
+* *2.5 hours* Worked on Analysis/Requirements section 
+
+## 7 Feb 2024
+* *1 hours* Worked on Analysis/Requirements section
+* *1 hour* Supervisor meeting
+* *1.5 hour* Improvements for background section
+
+## 8 Feb 2024
+* *2.5 hours* Worked on Analysis/Requirements section
+* *1 hour* Worked on the Design section
+
+## 9 Feb 2024
+* *2 hours* Improvements for background section
+
+## 10 Feb 2024
+* *3 hours* Worked on Design Section
+
+## Week 19
+
+## 12 Feb 2024
+* *3 hours* Finished Design Section 
+
+## 13 Feb 2024
+* *1 hour* Went over draft & made minor corrections
+
+## 14 Feb 2024
+* *hours* 
+* *hour* Supervisor meeting 
+
+## 15 Feb 2024
+* *hours* 
