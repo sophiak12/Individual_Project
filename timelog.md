@@ -331,8 +331,28 @@
 * *1 hour* Went over draft & made minor corrections
 
 ## 14 Feb 2024
-* *hours* 
-* *hour* Supervisor meeting 
+* *0.5 hour* Supervisor meeting 
 
 ## 15 Feb 2024
-* *hours* 
+* *2.5 hours* Worked on Implementation Section
+
+## 16 Feb 2024
+* *1 hour* Improved code
+* *1 hour* Improved Design & Analysis Sections
+* *1 hour* Worked on Implimentation Section
+
+## 18 Feb 2024
+* *3.5 hours* Worked on Implimentation Section
+
+## Week 20
+
+## 19 Feb 2024
+* *2 hours* Improved Implimentation Section
+
+## 20 Feb 2024
+* *1.5 hour* Improved model training code
+* *1 hour* Attempted model features including pitch
+
+## 21 Feb 2024
+* *hour*
+* *1 hour* Supervisor meeting
