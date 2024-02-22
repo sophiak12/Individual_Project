@@ -354,5 +354,8 @@
 * *1 hour* Attempted model features including pitch
 
 ## 21 Feb 2024
-* *hour*
 * *1 hour* Supervisor meeting
+* *2 hours* Improved model training code
+
+## 22 Feb 2024
+* *2.5 hours* Tried nested cv for on model traning 
