@@ -359,3 +359,30 @@
 
 ## 22 Feb 2024
 * *2.5 hours* Tried nested cv for on model traning 
+
+## 23 Feb 2024
+* *1.5 hours* Join Design & Implementation Sections
+* *1 hour* Improved Design & Implementation Sections 
+
+## 25 Feb 2023
+* *0.5 hour* Improved Plots
+* *1 hour* Worked on Evaluation Section
+
+## Week 21
+
+## 26 Feb 2023
+* *1 hour* Added plots & graphs to latex
+* *3 hours* Worked on Evaluation Section
+
+## 27 Feb 2023
+* *3 hours* Worked on plots & Evaluation
+
+## 28 Feb 2023
+* *3 hours* Worked on Evaluation
+
+## 29 Feb 2023
+* *4.5 hours* Worked on Evaluation Section
+
+## 1 Mar 2023
+* * hour* 
+* *hour* Supervisor meeting
