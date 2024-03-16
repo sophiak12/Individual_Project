@@ -364,25 +364,58 @@
 * *1.5 hours* Join Design & Implementation Sections
 * *1 hour* Improved Design & Implementation Sections 
 
-## 25 Feb 2023
+## 25 Feb 2024
 * *0.5 hour* Improved Plots
 * *1 hour* Worked on Evaluation Section
 
 ## Week 21
 
-## 26 Feb 2023
+## 26 Feb 2024
 * *1 hour* Added plots & graphs to latex
 * *3 hours* Worked on Evaluation Section
 
-## 27 Feb 2023
+## 27 Feb 2024
 * *3 hours* Worked on plots & Evaluation
 
-## 28 Feb 2023
+## 28 Feb 2024
 * *3 hours* Worked on Evaluation
 
-## 29 Feb 2023
+## 29 Feb 2024
 * *4.5 hours* Worked on Evaluation Section
 
-## 1 Mar 2023
-* * hour* 
-* *hour* Supervisor meeting
+## 1 Mar 2024
+* *0.5 hour* Worked on Evaluation Section
+* *1 hour* Supervisor meeting
+
+## Week 22
+
+## 4 Mar 2024
+* *0.5 hour* Added within gender spearman brown code
+* *3 hours* Worked on Implementation Section
+* *1 hour* Worked on splitting results & discussion
+
+## 5 Mar 2024
+* *4.5 hours* Worked on results & discussion sections
+* *0.5* Improved visualisations
+
+## 6 Mar 2024
+* *1 hour* Worked on introduction
+* *1 hour* Supervisor meeting
+
+## 7 Mar 2024
+* *0.5 hour* Finished introduction
+* *1 hour* Improved model evaluation code
+* *0.5 hour* Added PCA to implementation & formulas
+* *1 hour* Improved writing
+
+
+## 8 Mar 2024
+* *1 hour* Changed tables 
+* *1.5 hours* Added and discussed new performance metrics
+* *1 hour* Wrote conclusion
+
+## 9 Mar 2024
+* *1.5 hours* Improvements to dissertation
+
+## 10 Mar 2024
+* *3 hours* Improvements to dissertation

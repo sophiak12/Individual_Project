@@ -22,19 +22,19 @@ Week-by-week plan for the whole project. Update this as you go along.
 * **Week 11 [PROJECT WEEK]** Worked on plan for further development & finalised current implementations
 * **Week 12 [PROJECT WEEK]** Status report submitted.
 
+
 ## Winter break
 
 ## Spring Semester
-
-* **Week 13**
-* **Week 14**
-* **Week 15**
-* **Week 16**
-* **Week 17**
-* **Week 19**
-* **Week 20**
-* **Week 21**
-* **Week 22**
-* **Week 23 [TERM ENDS]**
+* **Week 13** Added PCA & Worked on audio extraction and within gender assessment
+* **Week 14** Worked on within gender assessments & Background chapter
+* **Week 15** Worked on Background chapter
+* **Week 16** Worked on Background chapter & visualisations
+* **Week 17** Worked on Analysis/Requirements/Design chapters
+* **Week 19** Worked on Implementation chapter
+* **Week 20** Improved models & improved dissertation chapters
+* **Week 21** Worked on Evaluation Section
+* **Week 22** Finalised Dissertation draft
+* **Week 23 [TERM ENDS]** Improved dissertation
 * **Week 24** Dissertation submission deadline and presentations.
 

@@ -3,66 +3,90 @@
 \usepackage{times}
     \usepackage{fullpage}
     
-    \title{ {{cookiecutter.project_title}}
-    \author{ {{cookiecutter.student_name}} - {{cookiecutter.student_id}} }
+    \title{Analysis of gender stereotypes in personality assessments}
+    \author{Sofia Karamichali - 2570646K}
 
     \begin{document}
     \maketitle
     
     
-     
-
+    
 \section{Status report}
 
 \subsection{Proposal}\label{proposal}
 
 \subsubsection{Motivation}\label{motivation}
 
-\emph{{[}Clearly motivate the purpose of your project; why someone would
-care about what you are doing{]}}
+\emph{This project is motivated by the importance of analysis of datasets via scientific and
+statistical methodologies and the need for the identification of biases within them. Thus,
+informed use of data can be achieved for purposes such as machine learning and the
+development of effective systems without inappropriate biases. The connection between
+social perception and the emerging stereotypes further motivates the importance of this
+project.}
 
 \subsubsection{Aims}\label{aims}
 
-\emph{{[}Clearly state what the project is intended to do. This should
-be something which is measurable; it should be possible to tell if you
-succeeded{]}}
+\emph{This project aims to determine gender biases present in personality judgements based on speech.
+The data used comes from a dataset of audio clips judged by listeners in terms of
+personality traits. The analysis primarily focuses on the distinction between the speakers'
+gender and how this impacted the judges’ perceptions highlighting the presence of any bias
+in the collected data. The project involves various methodologies used to
+determine the stereotypes identified in the dataset.}
 
 \subsection{Progress}\label{progress}
+\begin{itemize}
+    \item Background research done on Big Five personality traits and personality
+    perception.
+    \item Background research done on statistical tests and hypothesis testing methodologies.
+    \item Analysis of the overall dataset agreement using statistical measures to establish
+    dataset reliability done.
+    \item Analysis of personality trait data to define patterns of gender bias.
+    \item Background research conducted on pattern recognition, machine learning and use
+    of the Scikit-Learn python library.
+    \item Implementation of basic pattern recognition to determine distinction between
+    genders by applying data to test and train models done.
+    \item Statistical methodologies applied to define the credibility of the models’ outcomes.
+\end{itemize}
 
-\emph{{[}Briefly state your progress so far, as a bulleted list{]}}
 
 \subsection{Problems and risks}\label{problems-and-risks}
 
 \subsubsection{Problems}\label{problems}
 
-\emph{{[}What problems have you had so far, that have held up the
-project?{]}}
+\begin{itemize}
+    \item Delayed assignment of the project
+    \item Lack of background knowledge of the statistical methods
+    \item Lack of background knowledge of machine learning and pattern recognition
+    \item Large imbalance in dataset gender split – Used appropriate tests and methods to
+    handle the imbalance.
+\end{itemize}
 
 \subsubsection{Risks}\label{risks}
-
-\emph{{[}What problems do you foresee in the future and how will you
-mitigate them?{]}}
+Lack of other biases in the dataset \& focus of the project on gender biases - might not allow for experiemntation of other biases. 
+\\Solution - Adopt extended analysis \& experimentation of gender biases
 
 \subsection{Plan}\label{plan}
 
-\emph{{[}Time plan, in roughly weekly to monthly blocks, up until
-submission week{]}}
+\emph{Semester 2}
+\begin{itemize}
+    \item Week 1-2: Complete further research \& identify further experiments to be
+    completed.
+    \\Deliverable: Literature review draft \& more specific plan for upcoming weeks
+    \item Week 3-5: Implement any further experiments \& visualizations \& collect evaluated
+    results.
+    \\Deliverable: Completion of experiments \& detailed findings
+    \item Week 6: Final implementation of all experiments
+    \\Deliverable: polished software ready
+    \item Week 7-8: Write up.
+    First draft.
+    \item Week 9-10: Write up.
+    \\Deliverable: Complete final draft.
+\end{itemize}
 
     
 \subsection{Ethics and data}\label{ethics}
-\emph{Specify what ethical approval you need to do your evaluation and how you are approaching it. This is mandatory. 
-Specify what data you expect to collect in your evaluation. Explain how this data will help you evaluate your project.
-}
+This project does not involve human subjects or data. No approval required.
 
-Options for ethics:
-\item This project does not involve human subjects or data. No approval required.
-\item I have verified that the ethics checklist will apply to any evaluation I need to do. I will sign and complete the checklist.
-\item I have sought ethical guidance from the School's ethics convener and I will:
-\begin{itemize}
-    \item Proceed under specific instructions from the Ethics convener (e.g. modified checklist).
-    \item Apply for College Ethics Board approval.
-    \item Other procedure (give details)
-\end{itemize}    
 
 
 \end{document}
