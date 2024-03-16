@@ -1,6 +1,11 @@
 
-Overview of the folder structure:
+Individual Project - Sofia Karamichali 
+GUID: 2570646K
 
+Project Topic: Analysis of gender stereotypes in personality assessments
+Supervisor: Dr Evangelia Fringi
+
+Overview of the folder structure:
 * `timelog.md` The time log for the project.
 * `plan.md` A skeleton week-by-week plan for the project. 
 * `data/` data used
@@ -10,11 +15,3 @@ Overview of the folder structure:
 * `dissertation/` project dissertation
 * `presentation/` presentation
 
-* Make sure you add a `.gitignore` or similar for your VCS for the tools you are using!
-* Add any appropriate continuous integration (e.g. Travis CI) in this directory.
-
-* Remove this `readme.md` file from any repository and replace it with something more appropriate!
-
-## Important
-* It should be easy to rebuild and run your project and your dissertation
-        * Include clear instructions in the relevant directories to make this possible
