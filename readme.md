@@ -3,6 +3,7 @@ Individual Project - Sofia Karamichali
 GUID: 2570646K
 
 Project Topic: Analysis of gender stereotypes in personality assessments
+
 Supervisor: Dr Evangelia Fringi
 
 Overview of the folder structure:
