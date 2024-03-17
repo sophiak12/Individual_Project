@@ -408,7 +408,6 @@
 * *0.5 hour* Added PCA to implementation & formulas
 * *1 hour* Improved writing
 
-
 ## 8 Mar 2024
 * *1 hour* Changed tables 
 * *1.5 hours* Added and discussed new performance metrics
@@ -419,3 +418,28 @@
 
 ## 10 Mar 2024
 * *3 hours* Improvements to dissertation
+
+## Week 23
+
+## 11 Mar 2024
+* *0.5 hours* Worked on presentation slides
+
+## 12 Mar 2024
+* *0.5 hours* Worked on presentation slides
+
+## 13 Mar 2024
+* *1 hour* Supervisor meeting
+
+## 15 Mar 2024
+* *2 hours* Improved plots/tables
+
+## 16 Mar 2024
+* *2 hours* Improved dissertation 
+* *2 hours* Organised requirements.txt & overall codebase
+
+## 17 Mar 2024
+
+
+## Week 24
+
+## 18 Mar 2024
