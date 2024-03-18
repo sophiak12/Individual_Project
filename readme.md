@@ -3,7 +3,7 @@
 
 GUID: 2570646K
 
-Project Topic: Analysis of gender stereotypes in personality assessments
+Project Topic: Analysis of gender stereotypes in personality assessments of recorded speech
 
 Supervisor: Dr Evangelia Fringi
 

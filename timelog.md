@@ -438,8 +438,13 @@
 * *2 hours* Organised requirements.txt & overall codebase
 
 ## 17 Mar 2024
+* *1.5 hours* Worked on presentation/video
+* *2 hours* code cleanup & file organisation
 
 
 ## Week 24
 
 ## 18 Mar 2024
+* *1 hour* Supervisor meeting
+* *1 hour* Changed bar charts for model performance metrics
+* *2 hours* Improved dissertation
