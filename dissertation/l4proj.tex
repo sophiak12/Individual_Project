@@ -27,7 +27,7 @@
 \begin{abstract}
     Personality perception occurs under the experience of social interaction. A plethora of factors associated with the interacting parties have an effect on perceived personality. Gender stereotypes are a social construct investigated in literature on social psychology with regards to their influence on personality perception. This project contributes to the evaluation of the impact of gender stereotypes on the perceived personality traits through the means of non-verbal speech. This study aims to understand the effect universally established gender stereotypes have, on inferred personality traits, by restricting the level of acquaintance to no prior interaction. 
     Simultaneously, focus is placed on paralinguistic features of speech, omitting any influences from the spoken context.
-    The experiments conducted involve the use of hypothesis testing techniques and machine learning methodologies on a corpus including personality assessments completed by 11 listeners of 640 audio recordings. The results suggest that gender stereotypes impact the personality judgements made by third parties through non-verbal vocal cues to a moderate extent while further investigation needs to be performed to determine their effect on within gender assessments.
+    The experiments conducted involve the use of hypothesis testing techniques and machine learning methodologies on a corpus including personality assessments completed by 11 listeners for 640 audio recordings. The results suggest that gender stereotypes impact the personality judgements made by third parties through non-verbal vocal cues to a moderate extent while further investigation needs to be performed to determine their effect on within gender assessments.
     
 \end{abstract}
 
@@ -103,17 +103,18 @@ I would like to thank my supervisor Dr Evangelia Fringi for the support and guid
 % text in the final copy, and you will also get warnings when you compile (so you don't
 % forget to take them out!)
 
-This chapter is an introduction to this project which outlines the motivation behind the project’s thematic and the aims explored in the course of the its study. 
+This chapter is an introduction to this project which outlines the motivation behind the project’s thematic and the aims explored in the course of its study. 
 
 \section{Motivation}
 Personality perception is a topic investigated in the areas of psychology and social cognition. In order to understand the internal mechanisms that influence how personality is perceived, various potential factors have been studied ranging from cultural factors \citep{mccrae2005universal} to age \citep{Chapman2007}, and the chosen relationship between the assessor and the subject. Considering the sociological nature of personality perception, the influence of stereotypes is a concept that cannot be ignored in the evaluation of these mechanisms.
 Hence, gender stereotypes have been implemented into the research of personality perception aiming to justify the patterns present during personality assessment. 
 Nonetheless, personality perception is a process which can occur under a plethora of different circumstances leading to a wide range of potential scenarios under which personality perception is not well understood. One of those gaps is nonverbal cues in the form of voice nuances and vocal cues. In existing literature, it has been deduced that personality perceptions occurs under very brief interactions between the observer and perceived subject \citep{todorov2009evaluating, McAleer2014}. By determining the influences gender biases have on personality evaluation, these concepts can be further understood and add to the studied factors which have an effect on personality perceptions.
-From a broader point of view, the execution of a extensive amount of research is highly reliant on the analysis of datasets through scientific and statistical methodologies. This brings forth the need for clarity in not only the directly related characteristics of an investigated dataset but also the indirect biases within it. By unveiling the multifaceted aspects of a dataset and discovering any biases which are not observable on a first look basis, informed use of data can be achieved. Informed use of data is essential for purposes such as the development of effective systems without any inappropriate biases disrupting the true conclusions made as a result of the use of data.
+
+From a broader point of view, the execution of an extensive amount of research is highly reliant on the analysis of datasets through scientific and statistical methodologies. This brings forth the need for clarity in not only the directly related characteristics of an investigated dataset but also the indirect biases within it. By unveiling the multifaceted aspects of a dataset and discovering any biases which are not observable on a first look basis, informed use of data can be achieved. Informed use of data is essential for purposes such as the development of effective systems without any inappropriate biases disrupting the true conclusions made as a result of the chosen data.
 
 \section{Aim}
-Addressing the portrayed motivations, this project aims to target inferred personality assessments derived from non-verbal speech cues. This thematic takes into account the factors of gender stereotype influence on the perceptions of personality by third party assessors through the context of non-verbal speech. Therefore, the analysis of perceived personality incorporated both gender bias and perception of vocal cues at a zero acquaintance level of interaction.
-The corpus adopted in this study involves the perception of personality trait scores derived from the assessment of audio recordings. Consequently, the existence of gender biases in the employed corpus will be explored. The analysis of the corpus primarily focuses on the distinction between the speakers’ gender and how it impacted the listeners’ perceptions of personality highlighting the presence of any biases in the collected data. The project involves the use of various methodologies which experimentally determine the degree of impact of the stereotypes identified in the dataset. Apart from hypothesis testing techniques, the project aims to integrate machine learning methodologies to assess the impacts of gender stereotypes through the means of computer science. 
+Addressing the portrayed motivations, this project aims to target inferred personality assessments derived from non-verbal speech cues. This thematic takes into account the factors of gender stereotype influence on the perceptions of personality by third party assessors through the context of non-verbal speech. Therefore, the analysis of perceived personality incorporates both gender bias and perception of vocal cues at a zero acquaintance level of interaction.
+The corpus adopted in this study involves the perception of personality trait scores based on the assessment of audio recordings. Consequently, the existence of gender biases in the employed corpus will be explored. The analysis of the corpus primarily focuses on the distinction between the speakers’ gender and how it impacted the listeners’ perceptions of personality highlighting the presence of any biases in the collected data. The project involves the use of various methodologies which experimentally determine the degree of impact of the stereotypes identified in the dataset. Apart from hypothesis testing techniques, the project aims to integrate machine learning methodologies to assess the impacts of gender stereotypes through the means of computer science. 
 
 \section{Outline}
 The remainder of this paper will detail the process employed in the execution of this project leading up to the discussion of its findings against the intended aims.
@@ -123,7 +124,7 @@ The remainder of this paper will detail the process employed in the execution of
     \item Chapter \ref{chap:Design_Implementation} provides the designed processes for the project’s execution along with the specific and technical implementation details of the various experiments conducted to assess the dataset.
     \item Chapter \ref{chap:Results} is a presentation of the results found as a consequence of the execution of the project’s implementation.
     \item Chapter \ref{chap:discussion} evaluates the findings by discussing how they fit into existing literature and defines the conclusions which can be derived from the overall results.
-    \item Chapter \ref{chap:conclusion} concludes this paper with a summary and presents the potential future work which can be built upon this study.
+    \item Chapter \ref{chap:conclusion} concludes this paper with a summary and presents the potential future work which can build upon this study.
     
 \end{itemize}
 
@@ -140,7 +141,7 @@ In this chapter the foundational definitions relating to this study’s topic wi
 \section{Psychological constructs}\label{sec:background_psychology}
 \subsection{Stereotypes}
 Stereotypes constitute of characteristics and preconceptions which culminate to generalised beliefs in the differentiation of social groups \citep{wyer1984handbook}. These established opinions are constructed and stored in cognitive memory. As a result, stereotypes can impact one’s actions and interactions towards the members of the stereotyped social group.
-\citet{Wigboldus2003} discussed how stereotypes are preserved as a consequence of people’s approach to information which does not align with stereotypical expectations. It is argued, that when an individual’s attributes do not correspond to what is expected of them, they are likely to be discarded by the observers maintaining existing stereotypes.
+\citet{Wigboldus2003} discussed how stereotypes are preserved as a consequence of people’s approach to information which does not align with stereotypical expectations. It is argued, that when an individual’s attributes do not correspond to what is expected of them, they are likely to be discarded by the observers. Therefore, existing stereotypes are maintained.
 
 Gender stereotypes derive from the social groups formed as a result of the differentiation between the sexes. Thus, based on the nature of stereotypes, a distinction between the two sex groups is formed and manifested in a range of contexts \citep{ Ellemers2017}.
 Sex is a characteristic almost automatically associated with a person. It follows logically that gender stereotypes are closely intertwined with the impressions of someone who fits into one of the genders. The impact of gender stereotypes can then shape judgements of one’s personality.
@@ -148,11 +149,11 @@ Sex is a characteristic almost automatically associated with a person. It follow
 \subsection{Sex vs Gender}
 Biological differences between the two sexes do not necessarily correlate to the cultural relation between the binary genders. Every attribute socially associated with a gender does not conclusively derive from biology but simply from socially constructed expectations.
 The relation between sex and gender, however, does not represent the social construct of gender as a spectrum where in reality it is not binary \citep{Lindqvist2021,Dourlent2017}. As \citet{lips2020sex} states, gender is far more complicated than a binary distinction between masculinity and femininity.
-For the purpose of this study, considering the nature of the used dataset and the scope of relevant literature, gender is restricted to its binary interpretation derived from the female and male sex. Consequently, mentions of gender in this paper, unless otherwise specified, will refer to binary gender.
+For the purpose of this study, considering the nature of the used dataset and the scope of relevant literature, gender is restricted to its binary interpretation derived from the female and male sex. Consequently, mentions of gender in this paper, unless otherwise specified, will refer to binary genders.
 
 \subsection{Personality Perception}
 \label{sec:Personality_percpetion}
-The study of personality perception involves the process under which impressions are deduced by individuals about others in terms of their personality. Research in Social Cognition entails how such perceptual cues can be restricted under the conditions of zero acquaintance leading to Spontaneous Trait Inference \citep{Newman1990}. As a result, when processing behavioural information witnessed in a social context, Spontaneous Trait Inference takes place and first impressions are formed. In consequence, observed behaviours can spontaneously translate to perceived personality characteristics which are associated associate with the encountered party \citep{Bott2022}. 
+The study of personality perception involves the process under which impressions are deduced by individuals about others in terms of their personality. Research in social cognition entails how such perceptual cues can be restricted under the conditions of zero acquaintance leading to Spontaneous Trait Inference \citep{Newman1990}. As a result, when processing behavioural information witnessed in a social context, Spontaneous Trait Inference takes place and first impressions are formed. In consequence, observed behaviours can spontaneously translate to perceived personality characteristics which are associated with the encountered party \citep{Bott2022}. 
 
 In order to quantify and study personality, a personality model is adopted.
 The Five Factor personality model (FFM) is arguably the most widely used personality model. It involves five key personality traits of Extraversion, Agreeableness, Conscientiousness, Neuroticism, and Openness to Experience, referred to as the ‘Big Five’ \citep{Mccrae1992}. 
@@ -172,12 +173,12 @@ The Five Factor personality model (FFM) is arguably the most widely used persona
 The FFM was designed to provide a comprehensive model for purposes within the domain of personality psychology \citep{Mccrae1992}. The Big Five traits are utilised across literature to investigate a multitude of topics in the realm of personality including personality perception.
 
 In the conjunction of gender and the Big Five model, existing research has examined the evident differences between the two binary genders according to an evaluation of the personality traits. Hence, a common trend indicates higher results in personality trait scores associated with the female gender \citep{Schmitt2008, Weisberg2011,Chapman2007}.
-Such differences recorded in research appear to be consistent across various datasets but also regardless of age. \citet{Chapman2007} drew a comparison between previous studies and their work on gender differences with regard to older adults’ personality traits. In their study, it was concluded that the apparent biological and sociological reasoning behind the gender divide, in terms of personality traits, applies to all age groups reinforcing the relation between sex and personality scores.
+Such differences recorded in research appear to be consistent across various datasets but also regardless of age. \citet{Chapman2007} drew a comparison between previous studies and their work on gender differences with regard to older adults’ personality traits. In their study, it was concluded that the apparent biological and sociological reasoning behind the gender divide, in terms of personality traits, applies to all age groups reinforcing the relation between gender and personality scores.
 
 \subsection{Self-assessment vs Perception}\label{sec:self_vs_perception}
 There is a notable separation in research on the methods in which personality trait data is gathered. Such data is obtained either through self-evaluation or assessment as perceived by observers. In the case of self-assessment, the use of questionnaires and Likert scales are exercised to determine the personality trait scores participants associate with themselves. This is achieved via the participants' own responses regarding themselves. Meanwhile, assessment of expected traits is primarily reported by third parties in a range of scenarios. 
 
-For instance, in \citet{Weisberg2011}'s research, variation between the genders was drawn from the ten aspects of the Big Five personality traits via a self-rating five-point scale. Nonetheless, it is evident that self-assessment is susceptible to the impact of stereotypes making the aforementioned research relevant. Personality traits can be categorised to be stereotypically gendered and thus exercise their effect on the perception of gender even within self-assessment \citep{Gerber2009,Ellemers2017}. 
+For instance, in research by \citet{Weisberg2011}, variation between the genders was drawn from the ten aspects of the Big Five personality traits via a self-rating five-point scale. Nonetheless, it is evident that self-assessment is susceptible to the impact of stereotypes making the aforementioned research relevant. Personality traits can be categorised to be stereotypically gendered and thus exercise their effect on the perception of gender even within self-assessment \citep{Gerber2009,Ellemers2017}. 
 \citet{Gerber2009} examined social status and its effect on gender stereotyping when differentiating between the genders but simultaneously how the two gender groups perceive their own personalities on the basis of status. They established that status indeed has an impression on gender stereotypes and thus influences gender biased self-evaluation. Since gender bias is originated from a plethora of attributes, status leading to differences in perceived personality between the genders, illustrates bias.
 Additionally, \citet{beyer1990gender} concluded that there is a difference between how male and female participants estimate their perceived self performance which could be a result of gender biased expectations having an effect on one's self perception.
 Influences such as expectancy factors \citep{Newman1990}, the expectations individuals have about their own behaviours, further establish the impact of gender stereotypes on one’s self.
@@ -190,7 +191,7 @@ In addition, \citet{Mileva2023} found that the assessments made by listeners app
 \citet{Mohammadi2012} proposed a method of automatic prediction of perceived personality traits from voice which was achieved using Logistic Regression classification. The trained model was designed to classify the extracted speech features into the upper or lower end of the scoring for every Big Five personality trait. The model performed with accuracy of 70\%, a finding which signifies the correlation between speech and personality perception further.
 
 An influential parameter on personality perceptions made through speech is the speaker’s gender.
-Research by \citet{Dennhag2019} explores the role of gender stereotypes in the perception of speech using a method of digitally manipulating and replicating speech to turn a speech recording into two which sound like each gender. This is an attempt to investigate whether voice, in terms of gender, can impact personality perception under controlled circumstances. In their study, it was observed that gender indeed contributes to personality perception from voice due to the notable distinction between the scores assigned to the gender groups.
+Research by \citet{Dennhag2019} explores the role of gender stereotypes in the perception of speech using a method of digitally manipulating and replicating speech to turn a recording into two where each sounds like one gender. This is an attempt to investigate whether voice, in terms of gender, can impact personality perception under controlled circumstances. In their study, it was observed that gender indeed contributes to personality perception from voice due to the notable distinction between the scores assigned to the gender groups.
 
 
 \subsection{Within Gender}
@@ -304,7 +305,7 @@ In order to evaluate the reliability of the dataset, the Spearman-Brown formula 
 \text{Reliability Coefficient} = \frac{kr}{1+(k-1)r}
 \end{equation}
 where $k$  is the factor by which the test is changed which in this case is the number of judges in the dataset and $r$ is a reliability parameter of the original test, in this case found using Spearman's rank coefficient.
-The Spearman’s rank coefficient, $\rho$, is adopted to evaluate the potential correlation present between the personality assessments of the 11 judges for every common audio recording. More specifically, $rho$ was calculated using the personality perception scores for every one of the audio clips between all possible pairs of judges. Hence, the correlation coefficient considered the comparisons of all audio recordings between 55 unique pairs of judges.
+The Spearman’s rank coefficient, $\rho$, is adopted to evaluate the potential correlation present between the personality assessments of the 11 judges for every common audio recording. More specifically, $\rho$ was calculated using the personality perception scores for every one of the audio clips between all possible pairs of judges. Hence, the correlation coefficient considered the comparisons of all audio recordings between 55 unique pairs of judges.
 
 Spearman’s rank was selected due to its ability to capture monotonic relationships between the variables, the judge specific personality scores for a trait. This is ideal for the purpose of this study due to the subjective perceptions of personality and hence the rate at which each variable is moving in a certain direction is not relevant. In more detail, as personality perception scores are subjective, the tendency of judges to give higher or lower scores in general can vary, hence, using Spearman's rank, such a possibility can be controlled and thus no external normalising is necessary.
 
@@ -368,14 +369,14 @@ Taking into consideration the shared speakers amongst the dataset’s recordings
 In the context of the dataset, some of the featured audio recordings share a common speaker. To ensure that this does not negatively interfere with model performance and to avoid over-fitting while maintaining generalisable results, group splitting was used. This was incorporated to ensure a robust evaluation of the models since group splitting guarantees that any clips which include a shared speaker are maintained in same set split. As a result, the same speaker does not appear in both the training and testing sets leading to an honest output.
 At the same time, stratified k fold takes into account the class imbalance in the data and applies the same proportional distribution of each class label in every one of the fold splits. This decision is endorsed by \citep{fontanari2022cross} who investigated the comparison of various cross-validation techniques and strategies and found that in the context of an imbalanced dataset, stratified cross-validation is most appropriate.
 
-Returning to hyperparameter tuning, in this study, Grid Search Cross-validation was adopted. This method is used to automatically derive the optimal hyperparameters through exhausting all the possible hyperparameter combinations for a given model using brute-force approach. Stratified group k-fold cross validation was specified as a parameter of the GridSearchCV function to be used during the hyperparameter tuning procedure. Accordingly, for every hyperparameter combination, the model was trained and tested k times while retrieving a performance metric for every fold and maintaining stratified group splits. The best hyperparameters for a model were thus defined by comparing the average performance metric over the various folds per hyperparameter set.
+Returning to hyperparameter tuning, in this study, Grid Search Cross-validation was adopted. This method is used to automatically derive the optimal hyperparameters through exhausting all the possible hyperparameter combinations for a given model using a brute-force approach. Stratified group k-fold cross validation was specified as a parameter of the GridSearchCV function to be used during the hyperparameter tuning procedure. Accordingly, for every hyperparameter combination, the model was trained and tested k times while retrieving a performance metric for every fold and maintaining stratified group splits. The best hyperparameters for a model were thus defined by comparing the average performance metric over the various folds per hyperparameter set.
 The performance metric adopted in this implementation was accuracy since the evaluation of the algorithm is performed using the Binomial test, discussed in section \ref{sec:Design_ML_eval}. 
 
 The performance of the models was quantified both prior and post hyperparameter tuning. Considering the imbalance between classes present in the corpus the “class\_weight” hyperparameter was applied in both cases. The purpose of this parameter is to address the skew in class distribution by assigning different weights to the two binary classes. By giving more weight to the minority class during training, the algorithm can account for bias deriving from the imbalance. This setting is interpreted by the algorithm to assess the number of occurrences of each class in the set and adjust the weights according to the inverse proportion of their frequencies. This is attained by following the formula of:
 \begin{equation}
 \text{{class\*weight}} = \frac{n_{samples}}{{n_{classes}} \cdot {n_{class}}}
 \end{equation}
-where $n_{samples}$ is the number of samples in the input, $n_{classes}$ is the number of target labels, in this case 2 for the binary genders and $n_{classe}$ is the frequency of each one of the two class labels.
+where $n_{samples}$ is the number of samples in the input, $n_{classes}$ is the number of target labels, in this case 2 for the binary genders and $n_{class}$ is the frequency of each one of the two class labels.
 While maintaining this hyperparameter fixed, various other hyperparameters were adjusted within the grid search process. Through the mandatory use of "class\_weight", assigning accuracy as the performance metric does not jeopardise the consideration of the class imbalance when adjusting the hyperparameters.
 
 \subsection{The models \& their Hyperparameters}
@@ -387,7 +388,7 @@ The models adopted after hyperparameter tuning were implemented as follows where
 In terms of hyperparameters, the parameters specified for the Logistic Regression classifier in this implementation were "solver" and “class\_weight”. 
 The hyperparameter "solver" signifies the algorithm defined in the optimisation. "liblinear" was the algorithm chosen for this project since it is well suited for binary classes and thus was deemed most effective during hyperparameter tuning. 
 
-\item The K-Nearest Neighbours (KNN) classifier is an algorithm which operates by finding the k nearest instances derived from the dataset, on which the model is trained upon. These neighbours are compared to the input features for which a prediction is made. Depending on the distance between the neighbour values, the frequency the two class label that belong to the k closest neighbours in the feature space is calculated. The class in which the majority of neighbours belong to defines the classification of the current input and finally a prediction is made. The KNN classfier does not consider the weight that the features have on the classification and thus behaves toward the values of all features in a similar way.
+\item The K-Nearest Neighbours (KNN) classifier is an algorithm which operates by finding the k nearest instances derived from the dataset, on which the model is trained upon. These neighbours are compared to the input features for which a prediction is made. Depending on the distance between the neighbour values, the frequency of the class labels that belong to the k closest neighbours in the feature space is calculated. The class in which the majority of neighbours belong to defines the classification of the current input and finally a prediction is made. The KNN classifier does not consider the weight that the features have on the classification and thus behaves toward the values of all features in a similar way.
 
 The number of the k nearest features which are considered in the algorithm is thus a determining factor of its performance. The number defined in this implementation as a hyperparameter is 7. It is deduced that considering 7 neighbours in order to make a classification, is optimal for this dataset. Another hyperparameter specified is “weights” which is set to follow the inverse of the distance between the weight points. This choice emphasises the neighbours which are closer while the ones further away have a smaller impact on the final classification.  
 
@@ -441,7 +442,8 @@ The Binomial test formula adapted is:
     \end{equation}
 where $k$ is the number of correctly predicted classifications, $n$ is the number of total predictions and $p$ is the probability of success as a result of a single classification.
 
-Additionally, the models' performance for every one of the four metrics was compared with the prior probability of 66\% using Student's t tests. This was done by considering the scores of a metric for every fold against the prior probability. Bonferroni correction was also used for every performance metric giving an alpha of 0.01 as there are five models.
+Additionally, the models' performance for the accuracy metric was compared using a Student's t test with the prior probability of 66\% used for the Binomial test as well. T test were also computed for the metrics of F1, precision and recall scores but instead compared the with probability of the positive class. The probability of the positive class was chosen based on the nature of precision and recall and thus F1 score as well which takes into account the class imbalance.
+These t-test were used by considering the scores of the metric for every fold against the positive class probability. The use of this tests allowed for the inclusion of the performance metrics other than accuracy and the use of the scores from the different folds which represents the standard deviation between these scores. Bonferroni correction was also used for every performance metric giving an alpha of 0.01 as there are five models.
 
 \section{Audio Processing  \& Within Gender Assessment}
 
@@ -473,7 +475,7 @@ The formula for Spearman’s rank is as follows:
 \rho = 1 - \frac{6\sum d_i^2}{n(n^2 - 1)}
 \end{equation}
 
-where $\rho$ denotes the Spearman’s rank correlation coefficient, $d_i$ is the difference between the ranks of the pairs of values of every correlation and n is the number of observations which are included in the calculation. The output for every personality trait comparison was the correlation coefficient, $rho$, and the p-value. The correlation coefficient is a value between -1 and 1 where 1 suggests a perfect positive monotonic relationship while -1 indicates a perfect negative monotonic relationship. A $rho$ value of 0 represents no monotonic correlation at all amongst the two variables. In this test, an association between the fundamental frequency and personality scores following the hypothesis would imply a positive monotonic relationship between the variables. The metric of Spearman's rank was specifically chosen to assess this data as it is not sensitive to outliers in the case of potential audio distortion or expressive emotion in the speaker's voice.
+where $\rho$ denotes the Spearman’s rank correlation coefficient, $d_i$ is the difference between the ranks of the pairs of values of every correlation and n is the number of observations which are included in the calculation. The output for every personality trait comparison was the correlation coefficient, $\rho$, and the p-value. The correlation coefficient is a value between -1 and 1 where 1 suggests a perfect positive monotonic relationship while -1 indicates a perfect negative monotonic relationship. A $\rho$ value of 0 represents no monotonic correlation at all amongst the two variables. In this test, an association between the fundamental frequency and personality scores following the hypothesis would imply a positive monotonic relationship between the variables. The metric of Spearman's rank was specifically chosen to assess this data as it is not sensitive to outliers in the case of potential audio distortion or expressive emotion in the speaker's voice.
 
 In a similar manner to section \ref{sec:Implementation_stat}, Bonferroni correction was likewise exercised to account for the multiple comparisons due to the different personality scores. This resulted to an alpha value of 0.01.
 
@@ -487,8 +489,7 @@ This chapter is dedicated to the project's findings at every phase described in 
 
 \subsection{Inter-rater agreement}\label{sec:Results_agreement}
 
-\begin{table}[]
-\caption*{Inter-rater agreement Reliability coefficients}
+\begin{table}[b]
 %\tt 
 \centering
 \rowcolors{2}{}{gray!3}
@@ -499,58 +500,55 @@ Extraversion        & 0.804054    & 0.814321    & 0.803662                     \
 Agreeableness       & 0.595927    & 0.544303    & 0.597404                     \\
 Conscientiousness   & 0.567465    & 0.517704    & 0.553239                     \\
 Neuroticism         & 0.604638    & 0.516347    & 0.616003                     \\
-Openness            & 0.103023    & 0.255115    & 0.052161                     
+Openness            & 0.103023    & 0.255115    & 0.052161   
 \end{tabular}
 \vspace{10pt}
-\caption{Spearman-Brown Reliability Coefficients for the Big Five personality traits for each group of all speakers, female speakers and male speakers calculated using the average Spearman's rank rho including the personality judgements between 11 judges.}
+\caption{Inter-rater agreement Reliability coefficients: Spearman-Brown Reliability Coefficients for the Big Five personality traits for each group of all speakers, female speakers and male speakers calculated using the average Spearman's rank rho including the personality judgements between 11 judges.}
 \label{table:StatAnalysis_brown}
 \end{table}
 
-\begin{figure}
+The inter-rater agreement according to the Spearman-Brown reliability coefficient presents the agreement between judges and thus the reliability in the data. As a result, an evaluation of reliability within the corpus is performed.
+Through execution of the Spearman-Brown formula, the greatest reliability in judgements was signified for the traits of perceived Extraversion ($\rho$ = 0.80), followed by Neuroticism ($\rho$ = 0.60) as displayed in table \ref{table:StatAnalysis_brown}.
+According to \citet{fleiss1981measurement}, it was reported that inter-rater agreement within the range 0.75-1 is excellent, agreement within the range 0.40-0.75 is fair to good and poor agreement is found under 0.40. 
+Similar reliability was found between Extraversion and the traits of Agreeableness ($\rho$ = 0.60) and Conscientiousness ($\rho$ = 0.57) which suggests a fair to good result.
+The only trait that revealed very poor reliability was Openness which was substantially lower than all traits ($\rho$=0.10).
+
+In terms of the reliability when considering speakers of a single gender, within gender inter-rater agreement is displayed in table \ref{table:StatAnalysis_brown}. 
+Inter-rater agreement when assessing female speakers was highest for Extraversion ($\rho$ = 0.81) and was second highest for Agreeableness ($\rho$ = 0.54) while agreement was lowest for Openness ($\rho$ = 0.26). The rest of the traits employed a similar agreement around $\rho$ = 0.52.
+As it concerns male speakers, the agreement for Agreeableness ($\rho$ = 0.60), Conscientiousness ($\rho$ = 0.55) and Neuroticism ($\rho$ = 0.62) were slightly higher. However, Openness had very low reliability at $\rho$ = 0.05.
+Similarities are prominent between the within gender reliability and the collective reliability for most traits.
+For both genders, the agreement in Extraversion was evaluated to be very close to the agreement when considering all audio clips. For the traits of Agreeableness, Neuroticism and Conscientiousness, slightly higher agreement was found when comparing scores assigned to male speakers in comparison to female speakers. The opposite effect, but to a greater extent, is observed for Openness where agreement for female speakers reliability is $\rho$ = 0.26 while for male speakers it is $\rho$ = 0.05. 
+
+
+\begin{figure}[h]
         \centering
         \includegraphics[width=0.90\linewidth]{images/distribution_traits.png}
         \caption{A series of Box plots illustrating the average personality assessment scores given to audio recordings by the judges.}
         \label{fig:distribution_traits}
     \end{figure}
     
-\begin{table}[]
+\begin{table}[h]
     \centering
     %\tt 
     \rowcolors{2}{}{gray!3}
     \begin{tabular}{lllll}
         %\toprule 
-        
-        \hline%\midrule
         \textbf{Big Five Traits} & \textbf{Minimum}           & \textbf{Median}            & \textbf{Maximum}          & \textbf{Standard Deviation} \\ \hline
         Extraversion             & -3                         & 1                          & 4                         & 1.325566                    \\
         Agreeableness            & -3                         & 0                          & 2                         & 0.914476                    \\
         Conscientiousness        & -2                         & 1                          & 3                         & 0.889433                    \\
-        Neuroticism              & \cellcolor[HTML]{EFEFEF}-3 & \cellcolor[HTML]{EFEFEF}-1 & \cellcolor[HTML]{EFEFEF}3 & 1.097422                    \\
-        Openness                 & -2                         & 0                          & 2                         & 0.533917                    \\ \hline
+        Neuroticism              & -3                         & -1                         & 3                          & 1.097422                    \\
+        Openness                 & -2                         & 0                          & 2                         & 0.533917                    \\
     \end{tabular}
     \vspace{10pt}
     \caption{Summary Statistics of all scores per personality trait: Median, Minimum, Maximum, and Standard Deviation ($\sigma$).}
     \label{table:Pitch_Gender_values}
 \end{table}
 
-The inter-rater agreement according to the Spearman-Brown reliability coefficient presents the agreement between judges and thus the reliability in the data. As a result, an evaluation of reliability within the corpus is performed.
-Through execution of the Spearman-Brown formula, the greatest reliability in judgements was signified for the traits of perceived Extraversion ($\rho$ = 0.80), followed by Neuroticism ($\rho$ = 0.60) as displayed in table \ref{table:StatAnalysis_brown}.
-
-According to \citet{fleiss1981measurement}, it was reported that inter-rater agreement within the range 0.75-1 is excellent, agreement within the range 0.40-0.75 is fair to good agreement and poor agreement is found under 0.40. 
-Similar reliability was found between Extraversion and the traits of Agreeableness ($\rho$ = 0.60) and Conscientiousness ($\rho$ = 0.57) which suggests a fair to good result.
-The only trait that revealed very poor reliability was Openness which was substantially lower than all traits ($\rho$=0.10).
-
-In terms of the reliability when considering speakers of a single gender, within gender inter-rater agreement is displayed in the table \ref{table:StatAnalysis_brown}. 
-Inter-rater agreement when assessing female speakers was highest for Extraversion ($\rho$ = 0.81) and was second highest for Agreeableness ($\rho$ = 0.54) while agreement was lowest for Openness ($\rho$ = 0.26). The rest of the traits employed a similar agreement around $\rho$ = 0.52.
-As it concerns male speakers, the agreement for Agreeableness ($\rho$ = 0.60), Conscientiousness ($\rho$ = 0.55) and Neuroticism ($\rho$ = 0.62) were slightly higher. However, Openness had very low reliability at $\rho$ = 0.05.
-Similarities are prominent between the within gender reliability and the collective reliability for most traits.
-For both genders, the agreement in Extraversion was evaluated to be very close to the agreement when considering all audio clips. For the traits of Agreeableness, Neuroticism and Conscientiousness, slightly higher agreement was found when comparing scores assigned to male speakers in comparison to female speakers. The opposite effect, but to a greater extent, is observed for Openness where agreement for female speakers reliability is $\rho$ = 0.26 while for male speakers it is $\rho$ = 0.05. 
-
 \subsection{Gender differences}\label{sec:Results_gender_differences}
 
-\begin{table}[]
+\begin{table}[h]
 \centering
-\caption*{Female against male speaker's average personality scores}
 %\tt 
 \rowcolors{2}{}{gray!3}
 \begin{tabular}{lll}
@@ -560,7 +558,7 @@ Extraversion             & 0.841339             & 4.004731e-01     \\
 Agreeableness            & 5.385740             & 1.015605e-07     \\
 Conscientiousness        & 6.072088             & 2.168292e-09     \\
 Neuroticism              & 3.219771             & 1.348044e-03     \\
-Openness                 & 4.129047             & 4.127029e-05     \\ \hline
+Openness                 & 4.129047             & 4.127029e-05     \\ 
 \end{tabular}
 \vspace{10pt}
 \caption{Student's t-test results for the comparison of the female against male average personality scores per audio recording per Big Five trait.}
@@ -580,7 +578,26 @@ The remaining four traits were all found to be statistically significant and the
 
 \section{Machine Learning}\label{sec:Results_ML}
 
-\begin{table}[]
+\begin{table}[h]
+\centering
+%\tt 
+\rowcolors{2}{}{gray!3}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lll}
+\textbf{Models}           & \textbf{Binomial test p-value - before} & \textbf{Binomial test p-value - after}  \\ \hline
+Logistic Regression      & 1.807214e-01              & 1.807214e-01                   \\
+Random forest classifier & 4.029465e-01              & 7.697149e-01                   \\
+Decision tree classified & 1.432261e-01              & 1.549483e-01                   \\
+SVM                      & 2.952793e-02              & 2.306020e-08                   \\
+K-nearest neighbours     & 6.192301e-14              & 1.195554e-13                   \\ 
+\end{tabular}
+}
+\vspace{10pt}
+\caption{Binomial Test p-value for the five classification models before and after hyperparameter tuning.}
+\label{table:Binomial_Test_before_after}
+\end{table}
+
+\begin{table}[h]
   \centering
   \caption*{Confusion Matrices post Hyperparameter tuning}
   %\tt
@@ -601,46 +618,24 @@ The remaining four traits were all found to be statistically significant and the
     \multicolumn{1}{l|}{\cellcolor[HTML]{FFFFFF}}                                                                                      & Male                                        & \multicolumn{1}{l|}{\cellcolor[HTML]{FFFFFF}443}           & 60              \\
     \multicolumn{1}{l|}{\multirow{-2}{*}{\cellcolor[HTML]{FFFFFF}Support Vector Machine}}                                              & Female                                      & \multicolumn{1}{l|}{\cellcolor[HTML]{FFFFFF}90}            & 47              \\ \hline
     \multicolumn{1}{l|}{\cellcolor[HTML]{FFFFFF}}                                                                                      & Male                                        & \multicolumn{1}{l|}{\cellcolor[HTML]{FFFFFF}476}           & 27              \\
-    \multicolumn{1}{l|}{\multirow{-2}{*}{\cellcolor[HTML]{FFFFFF}K-nearest neighbours}}                                                & Female                                      & \multicolumn{1}{l|}{\cellcolor[HTML]{FFFFFF}105}           & 32              \\ \hline
+    \multicolumn{1}{l|}{\multirow{-2}{*}{\cellcolor[HTML]{FFFFFF}K-nearest neighbours}}                                                & Female                                      & \multicolumn{1}{l|}{\cellcolor[HTML]{FFFFFF}105}           & 32              \\ 
     \end{tabular}
     \vspace{10px}
   \caption{Confusion Matrices for the five algorithms after hyperparameter tuning. The rows represent the true class labels of the samples and the columns represent the predicted class labels as male and female.}
   \label{table:confusion_matrices}
 \end{table}
 
-\begin{table}[]
-\centering
-\caption*{Machine Learning Models Binomial test Results before and after Hyperparameter tuning}
-%\tt 
-\rowcolors{2}{}{gray!3}
-\resizebox{\textwidth}{!}{
-\begin{tabular}{lll}
-\textbf{Models}           & \textbf{Binomial test p-value - before} & \textbf{Binomial test p-value - after}  \\ \hline
-Logistic Regression      & 1.807214e-01              & 1.807214e-01                   \\
-Random forest classifier & 4.029465e-01              & 7.697149e-01                   \\
-Decision tree classified & 1.432261e-01              & 1.549483e-01                   \\
-SVM                      & 2.952793e-02              & 2.306020e-08                   \\
-K-nearest neighbours     & 6.192301e-14              & 1.195554e-13                   \\ \hline
-\end{tabular}
-}
-\vspace{10pt}
-\caption{Binomial Test p-value for the five classification models before and after hyperparameter tuning.}
-\label{table:Binomial_Test_before_after}
-\end{table}
-
 \begin{figure}
     \centering
     \caption*{Bar Charts for model performance scores post Hyperparameter tuning}
-    \includegraphics[width=1\linewidth]{images/barcharts_performance.png}
-    \caption{Bar charts for every performance metric for each classification algorithm's performance post hyperparameter tuning. The "*" indicators suggest statistical significance as a result of Student's t tests between the metric over the k-folds and the prior probability of 66\%.}
+    \includegraphics[width=1\linewidth]{images/models_barcharts_performancemetrics.png}
+    \caption{Bar charts for every performance metric for each classification algorithm's performance post hyperparameter tuning. The "*" indicators suggest statistical significance as a result of Student's t tests between the metric over the k-folds and the prior probability of 66\% for accuracy and the probability of the positive class for the rest.}
     \label{fig:model_barcharts_performancemetrics}
 \end{figure}
 
-
 In the Machine Learning phase, the five models described in section \ref{sec:Implementation_ML} were trained and tested using the corpus and optimised using hyperparameter tuning. The models were evaluated through their performance based on their corresponding confusion matrices, illustrated in table \ref{table:confusion_matrices}, as well as the calculated $F_1$, accuracy, precision and recall scores. To establish the reliability of the models' outcomes the confusion matrices were implemented into Binomial tests to determine the model performance in comparison to what the performance would have been by chance. The Binomial test p-values are presented in table \ref{table:Binomial_Test_before_after} both before and after hyperparameter tuning. The only algorithms which were found to be statistically significant are the Support Vector Machine (accuracy = 0.77, $F_1$ = 0.38, precision = 0.44, recall = 0.34, p < 0.01) and K-nearest neighbours (accuracy = 0.80, $F_1$ = 0.31, precision = 0.61, recall = 0.22, p < 0.01). 
-Despite the rest of the algorithms not being statistically significant, greater classification performance under the $F_1$ score was computed for the Logistic Regression model (accuracy = 0.69, $F_1$ = 0.48, precision = 0.37, recall = 0.69, p > 0.01). The performance metrics post hyperaperameter optimisation are illustrated in \ref{fig:model_barcharts_performancemetrics}. The figure presents the performance of all models along with an indicator for statistical significance under Student's t-tests for each metric over the k folds in comparison to the prior probability of 66\%. No positive significant difference was found between the performance of any model and chance.
-
-In comparison to the models prior to hyperparameter tuning as visible in table \ref{table:Binomial_Test_before}, the optimisation using hyperparameter tuning appears to have improved the results since the Support Vector Machine gained statistical significance through the new hyperparameters.
+Despite the rest of the algorithms not being statistically significant, greater classification performance under the $F_1$ score was computed for the Logistic Regression model (accuracy = 0.69, $F_1$ = 0.48, precision = 0.37, recall = 0.69, p > 0.01). In comparison to the models prior to hyperparameter tuning, the optimisation using hyperparameter tuning appears to have improved the results since the Support Vector Machine gained statistical significance through the new hyperparameters.
+The performance metrics post hyperaperameter optimisation are illustrated in \ref{fig:model_barcharts_performancemetrics}. The figure presents the performance of all models along with an indicator for statistical significance under Student's t-tests for each metric over the k folds in comparison to the prior probability of 66\% for accuracy and the probability of the positive class for the rest of the metrics. No significant difference was found between the performance of any model and the respective prior probability.
 
 \section{Audio Processing  \& Within Gender Assessment}
 In the investigation of within gender impacts of gender stereotypes, the correlations between fundamental frequency $f_0$ and personality perception were assessed. 
@@ -652,17 +647,17 @@ Initially, to compare the two genders, summary statistics of the fundamental fre
 Regarding the comparison between the two genders employed through the t-test (t = 7.10, p =  3.53e-12), the results indicate a statistically significant variation between the fundamental frequency of male and female speakers.
 
 \subsection{Within Gender Assessment}
-\begin{table}[]
+
+
+\begin{table}[h]
 \centering
 %\tt 
 \rowcolors{2}{}{gray!3}
 \begin{tabular}{lllll}
 %\toprule 
-
-\hline%\midrule
 \textbf{Gender} & \textbf{Mean $f_0$} & \textbf{Minimum $f_0$} & \textbf{Maximum $f_0$} & \textbf{Standard Deviation}\\ \hline
 Female          & 173.450310         & 117.656982            & 283.996488            & 28.437971                   \\
-Male            & 146.466992         & 77.286834             & 367.320230            & 41.903651                   \\ \hline
+Male            & 146.466992         & 77.286834             & 367.320230            & 41.903651                   \\ 
 
 \end{tabular}
 \vspace{10pt}
@@ -671,35 +666,35 @@ Male            & 146.466992         & 77.286834             & 367.320230       
 \end{table}
 
 
-\begin{figure}
+\begin{figure}[h]
     \centering
     \includegraphics[width=0.5\linewidth]{images/distribution_genders_pitch.png}
     \caption{Distribution of average fundamental frequency $f_0$ values per audio recording for the two gender groups.}
     \label{fig:distribution_f0}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[h]
     \centering
     \includegraphics[width=0.6\linewidth]{images/boxplot_genders_f0.png}
     \caption{Box plot illustrating the average $f_0$ values per gender with significant difference according to a t test indicated by '*'.}
     \label{fig:f0_perGender_boxplot}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[h]
     \centering
     \includegraphics[width=0.99\linewidth]{images/female_audio_boxplot.png}
     \caption{A series of Box plots illustrating the range of average $f_0$ values corresponding to each personality perception score for a specific trait assigned to female speakers.}
     \label{fig:female_audio_boxplot}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[h]
     \centering
     \includegraphics[width=1\linewidth]{images/male_audio_boxplot.png}
     \caption{A series of Box plots illustrating the range of average $f_0$ values corresponding to each personality perception score for a specific trait assigned to male speakers.}
     \label{fig:male_audio_boxplot}
 \end{figure}
 
-\begin{table}[]
+\begin{table}[h]
 \centering
 \caption*{Female speakers $f_0$ vs trait score correlation}
 %\tt 
@@ -711,14 +706,14 @@ Extraversion             & 0.299961                     & 0.000369         \\
 Agreeableness            & -0.108466                    & 0.207071         \\
 Conscientiousness        & -0.008762                    & 0.919055         \\
 Neuroticism              & 0.270054                     & 0.001416         \\
-Openness                 & 0.159689                     & 0.062327         \\ \hline
+Openness                 & 0.159689                     & 0.062327         \\ 
 \end{tabular}
 \vspace{10px}
 \caption{Spearman's Rank Coefficients comparing the fundamental frequency $f_0$ against the average personality perception score assigned to an audio clips of female speakers for every recording per Big Five trait.}
 \label{table:Audio_spearman_female}
 \end{table}
 
-\begin{table}[]
+\begin{table}[h]
 \centering
 \caption*{Male speakers $f_0$ vs trait score correlation}
 %\tt 
@@ -730,7 +725,7 @@ Extraversion             & -0.166116                     & 0.000188         \\
 Agreeableness            & -0.00446                    & 0.920685         \\
 Conscientiousness        & -0.217335                    & 0.000001         \\
 Neuroticism              & -0.071829                     & 0.108316         \\
-Openness                 & -0.040626                     & 0.364172         \\ \hline
+Openness                 & -0.040626                     & 0.364172         \\ 
 \end{tabular}
 \vspace{10px}
 \caption{Spearman's Rank Coefficients comparing the fundamental frequency $f_0$ against the average personality perception score assigned to an audio clips of male speakers for every recording per Big Five trait.}
@@ -739,9 +734,7 @@ Openness                 & -0.040626                     & 0.364172         \\ \
 
 Spearman’s rank was the metric used to determine the within gender relation of fundamental frequency and personality perception scores per personality trait. Spearman’s rank correlation coefficients were calculated for every one of the Big Five traits within one gender group at a time. The coefficients of these calculations represent the relationships between the average fundamental frequency and personality perception score assigned to speakers for all audio clips. The results are presented in tables \ref{table:Audio_spearman_female} and \ref{table:Audio_spearman_male} where for female speakers the traits of Extraversion ($\rho$ = 0.30, p < 0.01) and Neuroticism ($\rho$ = 0.27, p <0.01) employ statistically significant results along with a positively correlated relationship between the the trait scores and $f_0$. Meanwhile, the traits of Agreeableness ($\rho$ = -0.11, p > 0.01) and Conscientiousness ($\rho$ = -0.01 , p > 0.01) have insignificant and negatively correlated outputs while the correlation for Openness is insignificant ($\rho$ = 0.16 , p > 0.01) but positively correlated. For male speakers, the results are substantially different as all correlations are negative. The traits of Extraversion ($\rho$ = -0.17, p < 0.01) and Conscientiousness ($\rho$ = -0.21, p < 0.01) are the only traits under which the correlation yielded statistical significance.
 
-
 These results are accompanied by the figures \ref{fig:female_audio_boxplot} and \ref{fig:male_audio_boxplot} which display the corresponding range of fundamental frequency values per personality perception score of every trait.
-
 
 \section{Summary}
 This chapter demonstrated the results for each stage of the study.
@@ -749,8 +742,7 @@ This chapter demonstrated the results for each stage of the study.
 \chapter{Discussion}\label{chap:discussion}
 This chapter will discuss the findings presented in chapter \ref{chap:Results}. The evaluation of these results denotes their meaning in relation to the research questions while providing a comparative analysis to existing literature.
 
-This project aimed to analyse the presence of gender bias in the personality perception of speakers. The first bias detected in the dataset employed was the vast imbalance in the gender distribution within the dataset. As the dataset is dependent on th
-
+This project aimed to analyse the presence of gender bias in the personality perception of speakers. The first bias detected in the dataset employed was the vast imbalance in the gender distribution within the dataset. As gender bias is the studied variable in this project, an imbalance in the gender distribution is a bias in the dataset itself.
 
 \section{Statistical Analysis}
 The Statistical Analysis of the corpus provided an overview of the comparison of the inferred personality perception scores under the their separation between the two genders.
@@ -787,7 +779,7 @@ In the evaluation of gender bias in personality perceptions using machine learni
 \subsection{Models}
 The machine learning models were implemented prior and post hyperparameter tuning. The results in both cases imply that hyperparameter optimisation has benefited the Support Vector Machine algorithm as it improved the model's accuracy and achieved statistical significance. 
 Concentrating on the final results, the machine learning models adopted were observed to have achieved statistically significant performance when using the models of the Support Vector Machine (accuracy = 0.77, $F_1$ = 0.38, precision = 0.44, recall = 0.34, p < 0.01) and K-nearest neighbours (accuracy = 0.80, $F_1$ = 0.31, precision = 0.61, recall = 0.22, p < 0.01) as mentioned in section \ref{sec:Results_ML}. These algorithms have a relatively high accuracy at 77\% and 80\% while they have moderate to low performance when considering the class imbalance as their $F_1$ scores represent a performances of just under 40\% and at 30\%. In comparison to the prior probability of correctly predicting the gender by chance at 66\%, which is a parameter in the Binomial test, both models perform better than chance which leads to the statistically significant p-value. The $F_1$ score, as a representative metric according to the imbalanced class distribution, reveals that the models do not perform very accurately as illustrated in figure \ref{fig:model_barcharts_performancemetrics}. In comparison to existing literature addressed in section \ref{sec:Bias_ML}, these results appear to have lower performance. Nonetheless, the statistical significance of the two models in the Binomial test indicates that it is unlikely that the correct classifications have occurred by chance.
-In addition, the Student's t tests used to compare the several performance metrics individually with chance, do not demonstrate a positive t-statistic and statistical significance for any model. This outcome differs from the Binomial test which could be justified as the Binomial test does not consider the standard deviation present over the various k folds. Therefore, as the two interpretations of the model's performance did not present a unanimous result, the findings are not clear.
+In addition, the Student's t tests used to compare the several performance metrics individually with chance, do not demonstrate a statistical significance for any model. This outcome differs from the Binomial test which could be justified as the Binomial test does not consider the standard deviation present over the various k folds. Therefore, as the two interpretations of the model's performance did not present a unanimous result, the findings are not clear.
 
 Consequently, the findings encourage the notion that some underlying factor contributing to gender bias does influence personality perception scores and supports a relationship between gender stereotypes and the scores. The extent to which the algorithms have successfully classified the personality perception scores to the gender label could be attributed to other factors or to the dataset used in this project. As the t-tests did not support this relationship, the effect of gender bias on personality perception are perhaps not prominent. To assess the generalisability of the results and the extent to which the models’ performance contradicts or supports the effect of gender bias, reproducing this process using a different corpus could be beneficial to this cause. 
 The use of machine learning is an interesting approach to the detection of gender bias which could potentially represent biases more clearly in the adoption of a more balanced dataset.
@@ -824,8 +816,8 @@ The inconsistency in the findings between the two genders requires further resea
 Looking at this study's from a different perspective, a different relation is notable. For the trait of Extraversion, where fundamental frequency and personality scores have a significant outcomes within both genders, there is a correlation between extreme Extraversion scores and high fundamental frequency. In the within female assessment, there is a significant positive correlation between personality scores and Extraversion whereas in within male assessment the correlation is negative. This suggests that high fundamental frequency influences high Extraversion scores for female speakers and low Extraversion scores for male speakers. A potential explanation for this pattern might relate to the facets of Extraversion used by \citep{Löckenhoff2014}. However, these findings could be attributed to the opinion that personality inferences cannot simply be represented by the association between femininity and fundamental frequency but by a wider range of factors describing how ones personality is perceived.
 
 \section{Summary}
-Taking into account all of the conducted phases of this study, it can be deduced that the underlying stereotypic expectations of gender appear to influence the personality perception of speakers belonging to the two binary gender groups perceived under the conditions of non verbal, zero acquaintance. As discussed throughout this chapter, the high level patterns in the project align with the generic findings in existing literature.
-This project further experimented with the assessment of the influence of gender stereotypes on within gender inferences. The findings in this case were not as conclusive and require further research to be established. 
+Taking into account the phases of this study, it can be deduced that the stereotypic expectations of gender appear to influence the personality perception of speakers of the two genders perceived under non-verbal speech and zero acquaintance. As discussed throughout this chapter, the high level patterns in the project align with the generic findings in existing literature.
+This project further experimented with the influence of gender stereotypes on within gender inferences. The findings in this case were not conclusive and require further research to be established. 
 
 
 
@@ -852,14 +844,12 @@ Overall, the various experiments conducted during the course of this project dem
 \section{Future work}
 In accordance to this study’s findings and the course of this project, several avenues of future development have emerged which could build upon this project. 
 This project was carried out by assessing the performance of the experiments performed using a specific corpus. Hence, the effectiveness of the incorporation of machine learning models in the exploration of gender bias was only defined though the use of one dataset. To achieve more generalisable results and potentially lead to more conclusive outcomes, this study could be reproduced using other datasets. Additionally, the implementation of a more diverse dataset in terms of the genders considered has not been widely embraced by the research community. Not being restricted to the binary genders could contribute towards interesting investigations of the perception of personality both using speech but also through other means of interaction. 
-Another potential development of this project could be the generalisation of the machine learning methodologies to determine bias in personality perception which is not restricted to gender. Such developments, whilst outside the thematic of this project, can benefit the field in a broader sense and potentially provide an effective method to identify bias in datasets. 
+Another potential development of this project could be the generalisation of the machine learning methodologies to determine bias in personality perception which is not restricted to gender. Such developments, whilst outside the specific thematic of this project, can benefit the field in a broader sense and potentially provide an effective method to identify bias in datasets. 
 
 \section{Reflection}
-Upon reflection on this project, the process of conducting a study of this scale has been an insightful experience. Through the exploration of the project’s thematic, it became prominent that such studies inevitably involve the investigation of various methods of evaluation of the given corpus. By conducting extensive experimentation, it was clear that in the process of conducting such a study, several adjacencies need to be taken up in order to eventually conclude to its final shape. 
-
-The interdisciplinary nature of this study has proven to be a rewarding challenge due to the need for navigation of unknown concepts and the need to expand ones knowledge base to new techniques while attempting to put together a project of this magnitude.  In hindsight, achieving a balance between the fields was necessary to design a project which takes into account the field of computer science as a means of assessing gender bias and personality perception.
-
-More specifically, this project highlighted that results can reflect something else other than what was initially hypothesised. In this case, the within male assessment of personality and pitch showed that the computed correlations are not represented by the hypothesised relation between within gender assessment and femininity. 
+Upon reflection on this project, the process of conducting a project of this scale has been an insightful experience. Through the exploration of the project’s thematic, it became prominent that such studies inevitably involve the investigation of various methods of evaluation of the given corpus. By conducting extensive experimentation, it was clear that in the course of such a study, several adjacencies need to be taken up in order to eventually conclude to its final shape. 
+This also applies to the computed findings as this project highlighted that results can reflect something other than what was initially hypothesised. In this case, the within male assessment of personality and pitch showed that the computed correlations are not represented by the hypothesised relation between within gender assessment and femininity. 
+Moreover, the study's interdisciplinary nature has proven to require navigation of unknown concepts while putting together a project of this magnitude. In hindsight, achieving a balance between the fields was necessary for project using computer science as a means of assessing gender bias and personality perception.
 
 
 %==================================================================================================================================
@@ -889,3 +879,4 @@ More specifically, this project highlighted that results can reflect something e
 \bibliography{l4proj}
 
 \end{document}
+DisDIs

@@ -8,7 +8,7 @@
     The experiments conducted involve the use of hypothesis testing techniques and machine learning methodologies on a corpus including personality assessments completed by 11 listeners for 640 audio recordings. The results suggest that gender stereotypes impact the personality judgements made by third parties through non-verbal vocal cues to a moderate extent while further investigation needs to be performed to determine their effect on within gender assessments.
 
 
-Total page count: 37
+Total page count: 39
 
 
 Uses `l4proj.cls`, the standard LaTeX template for Honours Individual Projects.
