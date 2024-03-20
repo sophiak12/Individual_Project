@@ -1,20 +1,18 @@
-# UofG SoCS Level 4 Project LaTeX template
+# Dissertation 
 
-Provides `l4proj.cls`, the standard LaTeX template for Honours Individual Projects.
+## ANALYSIS OF GENDER STEREOTYPES IN PERSONALITY ASSESSMENTS OF RECORDED SPEECH
 
-![Preview of the layout](images/l4proj.png)
+### Abstract: 
+    Personality perception occurs under the experience of social interaction. A plethora of factors associated with the interacting parties have an effect on perceived personality. Gender stereotypes are a social construct investigated in literature on social psychology with regards to their influence on personality perception. This project contributes to the evaluation of the impact of gender stereotypes on the perceived personality traits through the means of non-verbal speech. This study aims to understand the effect universally established gender stereotypes have, on inferred personality traits, by restricting the level of acquaintance to no prior interaction. 
+    Simultaneously, focus is placed on paralinguistic features of speech, omitting any influences from the spoken context.
+    The experiments conducted involve the use of hypothesis testing techniques and machine learning methodologies on a corpus including personality assessments completed by 11 listeners for 640 audio recordings. The results suggest that gender stereotypes impact the personality judgements made by third parties through non-verbal vocal cues to a moderate extent while further investigation needs to be performed to determine their effect on within gender assessments.
 
-## Notes on formatting
 
-The first page, abstract and table of contents are numbered using Roman numerals and are not
-included in the page count. 
+Total page count: 37
 
-The first Chapter should start on page 1. You are allowed 40 pages for a 40 credit project and 30 pages for a 
-20 credit report. This includes everything numbered in Arabic numerals (excluding front matter) up
-to but excluding the appendices and bibliography.
 
-**You must not alter font, text size (it is currently 10pt), margins or spacing.**
+Uses `l4proj.cls`, the standard LaTeX template for Honours Individual Projects.
+Images used can be found in `dissertation/images`.
 
-## LaTeX
-This template has been tested with `pdflatex`. It should also work with `xelatex` and `lualatex`. Note that on Linux you may need to copy the contents of the `fonts/` folder to `~/.fonts/`.
+
 

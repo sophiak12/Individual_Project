@@ -448,3 +448,7 @@
 * *1 hour* Supervisor meeting
 * *1 hour* Changed bar charts for model performance metrics
 * *2 hours* Improved dissertation
+* *0.5 hour* Updated presentation slides
+
+## 19 Mar 2024
+* *2 hours* Revised dissertation
