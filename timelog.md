@@ -456,3 +456,6 @@
 
 ## 20 Mar 2024
 * *2.5 hours* Made a small correction to code & dissertation
+
+## 21 Mar 2024
+* *1 hour* Final document updates

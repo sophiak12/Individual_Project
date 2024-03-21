@@ -36,5 +36,5 @@ Week-by-week plan for the whole project. Update this as you go along.
 * **Week 21** Worked on Evaluation Section
 * **Week 22** Finalised Dissertation draft
 * **Week 23 [TERM ENDS]** Improved dissertation
-* **Week 24** Dissertation submission deadline and presentations.
+* **Week 24** Dissertation submission deadline and presentation.
 
