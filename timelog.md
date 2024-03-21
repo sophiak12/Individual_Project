@@ -455,4 +455,4 @@
 * *1 hour* Worked on video
 
 ## 20 Mar 2024
-* *1.5 hour* Made a small correction to code & dissertation
+* *2.5 hours* Made a small correction to code & dissertation

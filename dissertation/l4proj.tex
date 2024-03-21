@@ -345,7 +345,7 @@ Considering the potential for gender stereotypes to have an impact on perceptual
 \subsection{Principal Component Analysis}\label{sec:PCA}
 \begin{figure}
     \centering
-    \includegraphics[width=0.5\linewidth]{images/PCA.png}
+    \includegraphics[width=0.6\linewidth]{images/PCA.png}
     \caption{Principal Component Analysis (PCA) where the coordinates of every point is dependent on the personality assessments of speakers based on two principal components (Principal Component A \& Principal Component B). The gender of each points corresponding to a speaker is indicated by colour.}
     \label{fig:ML_PCA}
 \end{figure}
@@ -522,10 +522,12 @@ For both genders, the agreement in Extraversion was evaluated to be very close t
 
 \begin{figure}[h]
         \centering
-        \includegraphics[width=0.90\linewidth]{images/distribution_traits.png}
+        \includegraphics[width=0.99\linewidth]{images/distribution_traits.png}
         \caption{A series of Box plots illustrating the average personality assessment scores given to audio recordings by the judges.}
         \label{fig:distribution_traits}
     \end{figure}
+
+
     
 \begin{table}[h]
     \centering
@@ -565,12 +567,14 @@ Openness                 & 4.129047             & 4.127029e-05     \\
 \label{table:StatAnalysis_ttest}
 \end{table}
 
+
 \begin{figure}
     \centering
-    \includegraphics[width=0.99\linewidth]{images/genderSplit_boxplot.png}
+    \includegraphics[width=1\linewidth]{images/statAnalysis_gender_boxplot.png}
     \caption{A series of Box plots illustrating the average personality assessment scores given to audio recordings by the judges. Each plot represents a Big Five personality trait under which the scores were assigned which are separated into the two boxes dedicated to the binary genders. "*" indicators suggest statistical significance according to the t-test results between the genders per trait.}   
     \label{fig:StatAnalysis_boxplot}
 \end{figure}
+
 
 To statistically analyse the relationship between the personality scores corresponding to the two genders, two-sample student’s t-tests were employed to compose a comparison between the average personality assessment scores between the female and male speaker groups. These tests yielded the t-statistic between the two genders as well as the p-value, one for every personality trait. As illustrated in table \ref{table:StatAnalysis_ttest}, there is a positive t-statistic for all personality traits which indicates a difference between the two groups. With regard to the statistical significance of the outcomes, it was deduced that for the attribute of Extraversion the result was not significant (t = 0.84 ,p > 0.01). This is evident as the p-value is greater than the threshold of 0.01 which was the computed alpha value as a result of the Bonferroni correction.
 The remaining four traits were all found to be statistically significant and the greatest gender variation being attributed to the trait of Conscientiousness (t = 6.07 , p < 0.01) followed by Agreeableness (t = 5.39 , p < 0.01), Openness (t = 4.13 , p < 0.01) and finally Neuroticism (t = 3.22 , p < 0.01).
@@ -599,7 +603,6 @@ K-nearest neighbours     & 6.192301e-14              & 1.195554e-13             
 
 \begin{table}[h]
   \centering
-  \caption*{Confusion Matrices post Hyperparameter tuning}
   %\tt
     \renewcommand{\arraystretch}{1.5} % Adjust the value for increased row spacing
     \begin{tabular}{
@@ -625,13 +628,15 @@ K-nearest neighbours     & 6.192301e-14              & 1.195554e-13             
   \label{table:confusion_matrices}
 \end{table}
 
+
+
 \begin{figure}
     \centering
-    \caption*{Bar Charts for model performance scores post Hyperparameter tuning}
-    \includegraphics[width=1\linewidth]{images/models_barcharts_performancemetrics.png}
-    \caption{Bar charts for every performance metric for each classification algorithm's performance post hyperparameter tuning. The "*" indicators suggest statistical significance as a result of Student's t tests between the metric over the k-folds and the prior probability of 66\% for accuracy and the probability of the positive class for the rest.}
+    \includegraphics[width=1\linewidth]{images/model_barcharts_performancemetrics.png}
+    \caption{Bar charts for every performance metric for each classification algorithm's performance post hyperparameter tuning. Any "*" indicators suggest statistical significance as a result of Student's t tests between the metric over the k-folds and the prior probability of 66\% for accuracy and the probability of the positive class for the rest.}
     \label{fig:model_barcharts_performancemetrics}
 \end{figure}
+
 
 In the Machine Learning phase, the five models described in section \ref{sec:Implementation_ML} were trained and tested using the corpus and optimised using hyperparameter tuning. The models were evaluated through their performance based on their corresponding confusion matrices, illustrated in table \ref{table:confusion_matrices}, as well as the calculated $F_1$, accuracy, precision and recall scores. To establish the reliability of the models' outcomes the confusion matrices were implemented into Binomial tests to determine the model performance in comparison to what the performance would have been by chance. The Binomial test p-values are presented in table \ref{table:Binomial_Test_before_after} both before and after hyperparameter tuning. The only algorithms which were found to be statistically significant are the Support Vector Machine (accuracy = 0.77, $F_1$ = 0.38, precision = 0.44, recall = 0.34, p < 0.01) and K-nearest neighbours (accuracy = 0.80, $F_1$ = 0.31, precision = 0.61, recall = 0.22, p < 0.01). 
 Despite the rest of the algorithms not being statistically significant, greater classification performance under the $F_1$ score was computed for the Logistic Regression model (accuracy = 0.69, $F_1$ = 0.48, precision = 0.37, recall = 0.69, p > 0.01). In comparison to the models prior to hyperparameter tuning, the optimisation using hyperparameter tuning appears to have improved the results since the Support Vector Machine gained statistical significance through the new hyperparameters.
@@ -668,7 +673,7 @@ Male            & 146.466992         & 77.286834             & 367.320230       
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.5\linewidth]{images/distribution_genders_pitch.png}
+    \includegraphics[width=0.7\linewidth]{images/distribution_genders_pitch.png}
     \caption{Distribution of average fundamental frequency $f_0$ values per audio recording for the two gender groups.}
     \label{fig:distribution_f0}
 \end{figure}
@@ -696,7 +701,6 @@ Male            & 146.466992         & 77.286834             & 367.320230       
 
 \begin{table}[h]
 \centering
-\caption*{Female speakers $f_0$ vs trait score correlation}
 %\tt 
 \rowcolors{2}{}{gray!3}
 \begin{tabular}{lll}
@@ -709,13 +713,12 @@ Neuroticism              & 0.270054                     & 0.001416         \\
 Openness                 & 0.159689                     & 0.062327         \\ 
 \end{tabular}
 \vspace{10px}
-\caption{Spearman's Rank Coefficients comparing the fundamental frequency $f_0$ against the average personality perception score assigned to an audio clips of female speakers for every recording per Big Five trait.}
+\caption{Female speakers $f_0$ vs trait score correlation: Spearman's Rank Coefficients comparing the fundamental frequency $f_0$ against the average personality perception score assigned to an audio clips of female speakers for every recording per Big Five trait.}
 \label{table:Audio_spearman_female}
 \end{table}
 
 \begin{table}[h]
 \centering
-\caption*{Male speakers $f_0$ vs trait score correlation}
 %\tt 
 \rowcolors{2}{}{gray!3}
 \begin{tabular}{lll}
@@ -728,7 +731,7 @@ Neuroticism              & -0.071829                     & 0.108316         \\
 Openness                 & -0.040626                     & 0.364172         \\ 
 \end{tabular}
 \vspace{10px}
-\caption{Spearman's Rank Coefficients comparing the fundamental frequency $f_0$ against the average personality perception score assigned to an audio clips of male speakers for every recording per Big Five trait.}
+\caption{Male speakers $f_0$ vs trait score correlation: Spearman's Rank Coefficients comparing the fundamental frequency $f_0$ against the average personality perception score assigned to an audio clips of male speakers for every recording per Big Five trait.}
 \label{table:Audio_spearman_male}
 \end{table}
 
@@ -742,28 +745,30 @@ This chapter demonstrated the results for each stage of the study.
 \chapter{Discussion}\label{chap:discussion}
 This chapter will discuss the findings presented in chapter \ref{chap:Results}. The evaluation of these results denotes their meaning in relation to the research questions while providing a comparative analysis to existing literature.
 
-This project aimed to analyse the presence of gender bias in the personality perception of speakers. The first bias detected in the dataset employed was the vast imbalance in the gender distribution within the dataset. As gender bias is the studied variable in this project, an imbalance in the gender distribution is a bias in the dataset itself.
+
+This project aimed to analyse the presence of gender bias in the personality perception of speakers. 
+The first bias detected in the corpus employed was the vast imbalance in the gender distribution within the dataset. As the influence of gender bias is the studied variable in this project, an imbalance between the genders is a bias in the dataset itself. Regardless of the measures taken to mitigate its effect on the phases of the project, this is still a bias found in the dataset.
 
 \section{Statistical Analysis}
 The Statistical Analysis of the corpus provided an overview of the comparison of the inferred personality perception scores under the their separation between the two genders.
 
 \subsection{Inter-rater Agreement}
 Substantial literature has been carried out in relation to the agreement in personality assessments. Research on the topic considered different levels of acquaintance and circumstances which evidently affect the level of agreement between judges \citep{john1993determinants}. It is argued that higher levels of acquaintance are correlated with higher levels of agreement both in inter-rater agreement as well as agreement in a self-assessor scenarios where assessment is compared to the subject’s self-judgements \citep{paunonen1989consensus,funder1988friends}. 
-Taking this into consideration, levels of agreement concerning the matter of this dataset might have been influenced by the nature of the study and its data which were retrieved under conditions of no acquaintance. 
-Nonetheless, there is an overall trend indicating that despite the assessors being strongly acquainted with the subject or not, Extraversion is reported to be the most observable attribute and thus displaying the highest level of inter judge agreement amongst the personality traits. 
+Taking this into consideration, levels of agreement within this dataset might have been influenced by the nature of the study and its data which were retrieved under conditions of no acquaintance. 
+Nonetheless, there is an overall trend indicating that despite the assessors being strongly acquainted with the subject or not, Extraversion is reported to be the most observable attribute and thus displaying the highest level of inter-judge agreement. 
 As conveyed in section \ref{sec:Results_agreement} the overall highest agreement in the corpus has found for the trait of Extraversion ($\rho$ = 0.80) whereas agreement at a moderate extent was observed for Neuroticism ($\rho$ = 0.60), Agreeableness ($\rho$ = 0.60) and Conscientiousness ($\rho$ = 0.57).
 
 \citet{norman1966raters} described Extraversion as the most agreed upon trait while Agreeableness and Neuroticism as the traits with the lowest inter-rater agreement. Similarly, when examining agreement between different parties, including self-other agreement and inter-peer agreement \citet{funder1987differences} found Extraversion to have the highest agreement while attributes relating to Neuroticism to have the lowest. Additionally, \citet{funder1988friends} reported that more observable attributes lead to higher agreement in comparison to less observable ones. They also argue that Extraversion related characteristics tend to be observable as they are publicly displayed through social behaviour while neurotic related features are more private and thus less likely to be observed.
 The results of this project align with their findings in terms of Extraversion having the highest reliability coefficient whilst they contradict the findings for Neuroticism considering that it is the second highest scoring value in this project. In a similar manner, Agreeableness ($\rho$ = 0.60) was found to be agreed upon in this study to a moderate extent with correlation coefficient slightly under the coefficient for Neuroticism.
-Moreover, taking into account figure \ref{fig:distribution_traits}, the trait of Extraversion is displayed to employ a wider range of scores assigned to speakers. This observation in combination with the high reliability in the data supports higher inter-rater agreement for Extraversion. Regardless of the greater variance in the scores given to speakers in terms of Extraversion, judges tend to agree in their assessments. Therefore, this data encourages the opinion reinforced by literature that Extraversion is an observable characteristic leading to higher inter-rater agreement.
+Moreover, taking into account figure \ref{fig:distribution_traits}, the trait of Extraversion is displayed to employ a wider range of scores assigned to speakers. This observation in combination with the high reliability in the data supports higher inter-rater agreement for Extraversion. Regardless of the greater variance in the scores given to speakers for Extraversion, judges tend to agree in their assessments. Therefore, this data encourages the opinion reinforced by literature that Extraversion is an observable characteristic leading to higher inter-rater agreement.
 
 Finally, no significant findings in research were found about inter-rater agreement relating to the traits of Conscientiousness ($\rho$ = 0.57) and Openness ($\rho$ = 0.10).
-Drawing from these results, the reliability present in the findings, to some extent can provide some underlying reinforcement to the following experimental assessment of the corpus.
+Drawing from these results, the reliability in the findings, to some extent can provide some reinforcement to the following experimental assessment of the corpus.
 
 \subsection{Gender differences}\label{sec:eval_genderDiff}
 In an effort to investigate the differences present between the binary genders within the corpus, figure \ref{fig:StatAnalysis_boxplot} was designed. The box plots visualise the average personality perception scores assigned per audio clip separated over the two genders. The results display an overall trend of higher scores associated with female speakers in all of the Big Five traits in comparison to scores assigned to male speakers to various degrees. These observations report consistency with analysis in previous research.
 
-The generic findings reviewed in section \ref{sec:Results_gender_differences} describe a positive t-statistic for all Big Five with statistically significant outcomes for the traits of Agreeableness, Neuroticism, Conscientiousness and Openness. These results suggest a notable difference between the personality scores assigned to the two genders and thus mirror the results present in previous studies. As noted in section \ref{sec:Personality_percpetion}, relevant literature reports a common trend of higher personality scores being associated with the female gender as opposed to scores assigned to the male gender. \citet{Weisberg2011} reported that the most significant difference between the genders was found when examining the traits of Neuroticism and Agreeableness. These findings can be justified through research conducted by \citet{budaev1999sex}, where Neuroticism and Agreeableness were determined to be positively correlated factors. Their research signalled that when these traits are intertwined with the binary gender, they can place gender on opposite sides of their collective spectrum.
+The generic findings reviewed in section \ref{sec:Results_gender_differences} describe a positive t-statistic for all traits and statistically significant outcomes for Agreeableness, Neuroticism, Conscientiousness and Openness. These results suggest a notable difference between the personality scores assigned to the two genders and thus mirror the results present in previous studies. As noted in section \ref{sec:Personality_percpetion}, relevant literature reports a common trend of higher personality scores being associated with the female gender as opposed to scores assigned to the male gender. \citet{Weisberg2011} reported that the most significant difference between the genders was found when examining the traits of Neuroticism and Agreeableness. These findings can be justified through research conducted by \citet{budaev1999sex}, where Neuroticism and Agreeableness were determined to be positively correlated factors. Their research signalled that when these traits are intertwined with the binary gender, they can place gender on opposite sides of their collective spectrum.
 Despite other differences in gender, in the study conducted by \citet{Weisberg2011} no significant variation was detected for the traits of Conscientiousness and Openness. These conclusions do not align with the outcomes in this project. 
 However, it is worth noting that the majority of the aforementioned papers’ deductions were based on self-assessments, regardless of the potential impacts of gender stereotypes to self-evaluations which was discussed in section \ref{sec:self_vs_perception}. Research by \citet{Dennhag2019} was performed using judgements reported by third parties when listening to audio recordings. Their work was in line with the conclusions led to by studies based on self-assessment where female participants were found to have overall greater scores. In particular, they found that this effect was present in the traits of Extraversion, Agreeableness, Openness and Conscientiousness. Nonetheless, a contrasting result in their study in comparison to previous research was the lack of a difference found between the genders in terms of Neuroticism and a most significant difference in Conscientiousness. 
 
@@ -804,16 +809,15 @@ Following the hypothesis that gender bias is manifested even within gender group
 Figure \ref{fig:female_audio_boxplot} exhibits the range of average fundamental frequency values which belong to each personality trait score derived from the audio clips of female speakers for individual Big Five traits. 
 Respectively, figure \ref{fig:male_audio_boxplot}, represents the same relationship with regard to male speakers.
 To accompany these figures, as demonstrated in tables \ref{table:Audio_spearman_female} and \ref{table:Audio_spearman_male}, the results of Spearman’s rank correlation are presented. This calculation values the correlation between fundamental frequency $f_0$ and the average inferred scores per clip for every personality trait for a gender at a time.
-
 In the assessment of perception within the female gender, it was observed that the traits of Extraversion ($\rho$ = 0.30, p < 0.01) and Neuroticism ($\rho$ = 0.27, p <0.01) present a positively correlated and significant relationship between the trait scores and $f_0$ which is clearly illustrated in the patterns in figure \ref{fig:female_audio_boxplot}. 
 
-An interesting result is the variation between the traits with significant difference between the genders, discussed in section \ref{sec:eval_genderDiff}, and the within gender assessments that display statistically significant results. In the case of gender differences, the traits of Conscientiousness and Agreeableness displayed the greatest gender disparity whereas in female within gender observations, this effect was displayed in Extraversion and Neuroticism. On the contrary, in literature also discussed in section \ref{sec:eval_genderDiff}, Neuroticism is argued to be a trait that embodies the divide between the genders which aligns with the within female gender findings in this study. Bringing these points together, there is a disparity between the most prevalent traits which “divide” the two genders in the corpus and the traits which display the effect of gender bias within the female gender.
+An interesting result is the variation between the traits with significant difference between the genders, discussed in section \ref{sec:eval_genderDiff}, and the within gender assessments that display statistically significant results. In the case of gender differences, the traits of Conscientiousness and Agreeableness displayed the greatest gender disparity whereas in female within gender observations, this effect was displayed in Extraversion and Neuroticism. On the contrary, in literature also discussed in section \ref{sec:eval_genderDiff}, Neuroticism is argued to embody the divide between the genders which aligns with the within female findings in this study. Bringing these points together, there is a disparity between the most prevalent traits which “divide” the two genders in the corpus and the traits which display the effect of gender bias within the female gender.
 
 With regard to the voice recordings of male speakers, the only statistically significant outcome is the correlation between $f_0$ and the traits of Conscientiousness ($\rho$ = -0.22, p <0.01) and Extraversion ($\rho$ = -0.17, p < 0.01). However, in both cases, the relationship appears to have a negative correlation which is representative of the opposite effect of fundamental frequency on personality scores. 
 The inconsistency in the findings between the two genders requires further research to establish whether this is a generalisable result or not and whether the within gender impacts of gender stereotypes do not have the same effect on the personality perception of speakers of both genders.
 \citet{diekman2000stereotypes} discusses that through their experiments it was concluded that there is an increase in the convergence of personality characteristics of the two genders but the most significant effect was displayed in the increase of the masculine personality characteristics of members of the female gender. Such an effect could have impacted the influence that stereotypically feminine fundamental frequency had on the personality perception of male speakers. Under these findings, it can be assumed that the effects of gender stereotypes on personality perception are stronger in assessments within the female gender.
 
-Looking at this study's from a different perspective, a different relation is notable. For the trait of Extraversion, where fundamental frequency and personality scores have a significant outcomes within both genders, there is a correlation between extreme Extraversion scores and high fundamental frequency. In the within female assessment, there is a significant positive correlation between personality scores and Extraversion whereas in within male assessment the correlation is negative. This suggests that high fundamental frequency influences high Extraversion scores for female speakers and low Extraversion scores for male speakers. A potential explanation for this pattern might relate to the facets of Extraversion used by \citep{Löckenhoff2014}. However, these findings could be attributed to the opinion that personality inferences cannot simply be represented by the association between femininity and fundamental frequency but by a wider range of factors describing how ones personality is perceived.
+According to these results a different relation is notable. For Extraversion, where fundamental frequency and personality scores have a significant outcome within both genders, there is a correlation between extreme Extraversion scores and high fundamental frequency. In the within female assessment, there is a significant positive correlation between scores and Extraversion whereas in within male assessment the correlation is negative. This suggests that high fundamental frequency influences high Extraversion scores for female speakers and low Extraversion scores for male speakers. A potential explanation for this pattern might relate to the facets of Extraversion used by \citep{Löckenhoff2014}. However, these findings could be attributed to the opinion that personality inferences cannot simply be represented by the association between femininity and fundamental frequency but by a wider range of factors describing how ones personality is perceived.
 
 \section{Summary}
 Taking into account the phases of this study, it can be deduced that the stereotypic expectations of gender appear to influence the personality perception of speakers of the two genders perceived under non-verbal speech and zero acquaintance. As discussed throughout this chapter, the high level patterns in the project align with the generic findings in existing literature.

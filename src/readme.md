@@ -15,7 +15,7 @@ To run the code, simply run the notebook cells in order.
 * Packages: listed in `requirements.txt` 
 
 ### Build steps
-* Navigate to rhe `src` folder
+* Navigate to the `src` folder
 * run `pip install -r requirements.txt` 
 
 
